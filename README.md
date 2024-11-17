@@ -22,5 +22,5 @@ ___
 3. Gene prediction with metaeuk (database)
 4. KO assignment with kofamscan
 5. Gene Ontology and PFam terms attached with custom scripts
-
+	- Bash scripts for reference. Need to adjust file paths to match new structure and local machines
 
