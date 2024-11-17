@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00052    </title>
+    <link href="/css/gn2.css?1731859728" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859728"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00052<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 78 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00011">K00011</a>               AKR1B; aldehyde reductase [EC:1.1.1.21] 
+<a href="/entry/K00035">K00035</a>               gal; D-galactose 1-dehydrogenase [EC:1.1.1.48] 
+<a href="/entry/K00094">K00094</a>               E1.1.1.251, gatD; galactitol-1-phosphate 5-dehydrogenase [EC:1.1.1.251] 
+<a href="/entry/K00704">K00704</a>               LALBA; alpha-lactalbumin [EC:2.4.1.22] 
+<a href="/entry/K00844">K00844</a>               HK; hexokinase [EC:2.7.1.1] 
+<a href="/entry/K00845">K00845</a>               glk; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K00849">K00849</a>               galK; galactokinase [EC:2.7.1.6] 
+<a href="/entry/K00850">K00850</a>               pfkA, PFK; 6-phosphofructokinase 1 [EC:2.7.1.11] 
+<a href="/entry/K00883">K00883</a>               dgoK; 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.58] 
+<a href="/entry/K00917">K00917</a>               lacC; tagatose 6-phosphate kinase [EC:2.7.1.144] 
+<a href="/entry/K00963">K00963</a>               UGP2, galU, galF; UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9] 
+<a href="/entry/K00965">K00965</a>               galT, GALT; UDPglucose--hexose-1-phosphate uridylyltransferase [EC:2.7.7.12] 
+<a href="/entry/K01084">K01084</a>               G6PC; glucose-6-phosphatase [EC:3.1.3.9] 
+<a href="/entry/K01182">K01182</a>               IMA, malL; oligo-1,6-glucosidase [EC:3.2.1.10] 
+<a href="/entry/K01187">K01187</a>               malZ; alpha-glucosidase [EC:3.2.1.20] 
+<a href="/entry/K01189">K01189</a>               GLA; alpha-galactosidase [EC:3.2.1.22] 
+<a href="/entry/K01190">K01190</a>               lacZ; beta-galactosidase [EC:3.2.1.23] 
+<a href="/entry/K01193">K01193</a>               INV, sacA; beta-fructofuranosidase [EC:3.2.1.26] 
+<a href="/entry/K01203">K01203</a>               SI; sucrase-isomaltase [EC:3.2.1.48 3.2.1.10] 
+<a href="/entry/K01220">K01220</a>               E3.2.1.85, lacG; 6-phospho-beta-galactosidase [EC:3.2.1.85] 
+<a href="/entry/K01229">K01229</a>               LCT; lactase-phlorizin hydrolase [EC:3.2.1.108 3.2.1.62] 
+<a href="/entry/K01631">K01631</a>               dgoA; 2-dehydro-3-deoxyphosphogalactonate aldolase [EC:4.1.2.21] 
+<a href="/entry/K01635">K01635</a>               lacD; tagatose 1,6-diphosphate aldolase [EC:4.1.2.40] 
+<a href="/entry/K01684">K01684</a>               dgoD; galactonate dehydratase [EC:4.2.1.6] 
+<a href="/entry/K01784">K01784</a>               galE, GALE; UDP-glucose 4-epimerase [EC:5.1.3.2] 
+<a href="/entry/K01785">K01785</a>               galM, GALM; aldose 1-epimerase [EC:5.1.3.3] 
+<a href="/entry/K01819">K01819</a>               E5.3.1.26, lacA, lacB; galactose-6-phosphate isomerase [EC:5.3.1.26] 
+<a href="/entry/K01835">K01835</a>               pgm; phosphoglucomutase [EC:5.4.2.2] 
+<a href="/entry/K01854">K01854</a>               glf; UDP-galactopyranose mutase [EC:5.4.99.9] 
+<a href="/entry/K02079">K02079</a>               agaA; N-acetylgalactosamine-6-phosphate deacetylase [EC:3.5.1.25] 
+<a href="/entry/K02082">K02082</a>               agaS; D-galactosamine 6-phosphate deaminase/isomerase [EC:3.5.99.-] 
+<a href="/entry/K02744">K02744</a>               agaF; N-acetylgalactosamine PTS system EIIA component [EC:2.7.1.-] 
+<a href="/entry/K02745">K02745</a>               agaV; N-acetylgalactosamine PTS system EIIB component [EC:2.7.1.-] 
+<a href="/entry/K02746">K02746</a>               agaW; N-acetylgalactosamine PTS system EIIC component 
+<a href="/entry/K02747">K02747</a>               agaE; N-acetylgalactosamine PTS system EIID component 
+<a href="/entry/K02773">K02773</a>               gatA, sgcA; galactitol PTS system EIIA component [EC:2.7.1.200] 
+<a href="/entry/K02774">K02774</a>               gatB, sgcB; galactitol PTS system EIIB component [EC:2.7.1.200] 
+<a href="/entry/K02775">K02775</a>               gatC, sgcC; galactitol PTS system EIIC component 
+<a href="/entry/K02786">K02786</a>               lacF; lactose PTS system EIIA component [EC:2.7.1.207] 
+<a href="/entry/K02788">K02788</a>               lacE; lactose PTS system EIICB component [EC:2.7.1.207] 
+<a href="/entry/K04618">K04618</a>               GAOA; galactose oxidase [EC:1.1.3.9] 
+<a href="/entry/K05308">K05308</a>               gnaD; gluconate/galactonate dehydratase [EC:4.2.1.140] 
+<a href="/entry/K06611">K06611</a>               E2.4.1.67; stachyose synthetase [EC:2.4.1.67] 
+<a href="/entry/K06617">K06617</a>               E2.4.1.82; raffinose synthase [EC:2.4.1.82] 
+<a href="/entry/K07406">K07406</a>               melA; alpha-galactosidase [EC:3.2.1.22] 
+<a href="/entry/K07407">K07407</a>               E3.2.1.22B, galA, rafA; alpha-galactosidase [EC:3.2.1.22] 
+<a href="/entry/K07966">K07966</a>               B4GALT1; beta-1,4-galactosyltransferase 1 [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-] 
+<a href="/entry/K07967">K07967</a>               B4GALT2; beta-1,4-galactosyltransferase 2 [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-] 
+<a href="/entry/K08302">K08302</a>               gatY-kbaY; tagatose 1,6-diphosphate aldolase GatY/KbaY [EC:4.1.2.40] 
+<a href="/entry/K10984">K10984</a>               agaB; galactosamine PTS system EIIB component [EC:2.7.1.-] 
+<a href="/entry/K10985">K10985</a>               agaC; galactosamine PTS system EIIC component 
+<a href="/entry/K10986">K10986</a>               agaD; galactosamine PTS system EIID component 
+<a href="/entry/K11395">K11395</a>               kdpgA; 2-dehydro-3-deoxy-phosphogluconate/2-dehydro-3-deoxy-6-phosphogalactonate aldolase [EC:4.1.2. 
+<a href="/entry/K12047">K12047</a>               MGAM; maltase-glucoamylase [EC:3.2.1.20 3.2.1.3] 
+<a href="/entry/K12111">K12111</a>               ebgA; evolved beta-galactosidase subunit alpha [EC:3.2.1.23] 
+<a href="/entry/K12112">K12112</a>               ebgC; evolved beta-galactosidase subunit beta 
+<a href="/entry/K12308">K12308</a>               bgaB, lacA; beta-galactosidase [EC:3.2.1.23] 
+<a href="/entry/K12309">K12309</a>               GLB1, ELNR1; beta-galactosidase [EC:3.2.1.23] 
+<a href="/entry/K12316">K12316</a>               GAA; lysosomal alpha-glucosidase [EC:3.2.1.20] 
+<a href="/entry/K12317">K12317</a>               GANC; neutral alpha-glucosidase C [EC:3.2.1.20] 
+<a href="/entry/K12407">K12407</a>               GCK; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K12447">K12447</a>               USP; UDP-sugar pyrophosphorylase [EC:2.7.7.64] 
+<a href="/entry/K15778">K15778</a>               pmm-pgm; phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2] 
+<a href="/entry/K15779">K15779</a>               PGM2; phosphoglucomutase / phosphopentomutase [EC:5.4.2.2 5.4.2.7] 
+<a href="/entry/K16370">K16370</a>               pfkB; 6-phosphofructokinase 2 [EC:2.7.1.11] 
+<a href="/entry/K16371">K16371</a>               gatZ-kbaZ; D-tagatose-1,6-bisphosphate aldolase subunit GatZ/KbaZ 
+<a href="/entry/K17716">K17716</a>               capD; UDP-glucose 4-epimerase [EC:5.1.3.2] 
+<a href="/entry/K18124">K18124</a>               gdh2, gdhA; glucose/galactose 1-dehydrogenase (NADP+) [EC:1.1.1.360] 
+<a href="/entry/K18125">K18125</a>               ssgdh; aldose 1-dehydrogenase [NAD(P)+] [EC:1.1.1.359] 
+<a href="/entry/K18126">K18126</a>               sskdgK; 2-dehydro-3-deoxygluconokinase / 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.178] 
+<a href="/entry/K18127">K18127</a>               kdgA; 2-dehydro-3-deoxy-D-gluconate aldolase [EC:4.1.2.51] 
+<a href="/entry/K18819">K18819</a>               GOLS; inositol 3-alpha-galactosyltransferase [EC:2.4.1.123] 
+<a href="/entry/K21071">K21071</a>               pfk, pfp; ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 
+<a href="/entry/K21620">K21620</a>               sorbD; galactitol 2-dehydrogenase [EC:1.1.1.16] 
+<a href="/entry/K21621">K21621</a>               fk; tagatose kinase [EC:2.7.1.101] 
+<a href="/entry/K21622">K21622</a>               tag6PK; D-tagatose 6-phosphate 4-epimerase [EC:5.1.3.40] 
+<a href="/entry/K22215">K22215</a>               galD; galactose dehydrogenase [EC:1.1.1.48 1.1.1.120] 
+<a href="/entry/K25026">K25026</a>               glk; glucokinase [EC:2.7.1.2] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

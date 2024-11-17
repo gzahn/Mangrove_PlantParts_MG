@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00562    </title>
+    <link href="/css/gn2.css?1731859723" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859723"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00562<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 77 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00010">K00010</a>               iolG; myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369] 
+<a href="/entry/K00140">K00140</a>               mmsA, iolA, ALDH6A1; malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde 
+<a href="/entry/K00469">K00469</a>               MIOX; inositol oxygenase [EC:1.13.99.1] 
+<a href="/entry/K00888">K00888</a>               PI4KA; phosphatidylinositol 4-kinase A [EC:2.7.1.67] 
+<a href="/entry/K00889">K00889</a>               PIP5K; 1-phosphatidylinositol-4-phosphate 5-kinase [EC:2.7.1.68] 
+<a href="/entry/K00911">K00911</a>               ITPK; 1D-myo-inositol-triphosphate 3-kinase [EC:2.7.1.127] 
+<a href="/entry/K00913">K00913</a>               ITPK1; inositol-1,3,4-trisphosphate 5/6-kinase / inositol-tetrakisphosphate 1-kinase [EC:2.7.1.159 2 
+<a href="/entry/K00914">K00914</a>               PIK3C3, VPS34; phosphatidylinositol 3-kinase [EC:2.7.1.137] 
+<a href="/entry/K00915">K00915</a>               IPMK, IPK2; inositol-polyphosphate multikinase [EC:2.7.1.140 2.7.1.151] 
+<a href="/entry/K00920">K00920</a>               PIP4K2; 1-phosphatidylinositol-5-phosphate 4-kinase [EC:2.7.1.149] 
+<a href="/entry/K00921">K00921</a>               PIKFYVE, FAB1; 1-phosphatidylinositol-3-phosphate 5-kinase [EC:2.7.1.150] 
+<a href="/entry/K00922">K00922</a>               PIK3CA_B_D; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha/beta/delta [EC:2. 
+<a href="/entry/K00923">K00923</a>               PIK3C2; phosphatidylinositol-4-phosphate 3-kinase [EC:2.7.1.154] 
+<a href="/entry/K00999">K00999</a>               CDIPT; CDP-diacylglycerol--inositol 3-phosphatidyltransferase [EC:2.7.8.11] 
+<a href="/entry/K01083">K01083</a>               E3.1.3.8; 3-phytase [EC:3.1.3.8] 
+<a href="/entry/K01092">K01092</a>               E3.1.3.25, IMPA, suhB; myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25] 
+<a href="/entry/K01093">K01093</a>               appA; 4-phytase / acid phosphatase [EC:3.1.3.26 3.1.3.2] 
+<a href="/entry/K01099">K01099</a>               INPP5B_F; inositol polyphosphate 5-phosphatase INPP5B/F [EC:3.1.3.36] 
+<a href="/entry/K01106">K01106</a>               INPP5A; inositol polyphosphate 5-phosphatase INPP5A [EC:3.1.3.56] 
+<a href="/entry/K01107">K01107</a>               INPP1; inositol polyphosphate 1-phosphatase [EC:3.1.3.57] 
+<a href="/entry/K01108">K01108</a>               MTM1; myotubularin [EC:3.1.3.64 3.1.3.95] 
+<a href="/entry/K01109">K01109</a>               INPP4; inositol polyphosphate-4-phosphatase [EC:3.1.3.66] 
+<a href="/entry/K01110">K01110</a>               PTEN; phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatas 
+<a href="/entry/K01114">K01114</a>               plc; phospholipase C [EC:3.1.4.3] 
+<a href="/entry/K01116">K01116</a>               PLCG1; phosphatidylinositol phospholipase C, gamma-1 [EC:3.1.4.11] 
+<a href="/entry/K01765">K01765</a>               ITPK4; inositol-1,3,4-trisphosphate 5/6-kinase [EC:2.7.1.159] 
+<a href="/entry/K01771">K01771</a>               plc; 1-phosphatidylinositol phosphodiesterase [EC:4.6.1.13] 
+<a href="/entry/K01803">K01803</a>               TPI, tpiA; triosephosphate isomerase (TIM) [EC:5.3.1.1] 
+<a href="/entry/K01858">K01858</a>               INO1, ISYNA1; myo-inositol-1-phosphate synthase [EC:5.5.1.4] 
+<a href="/entry/K03084">K03084</a>               SHIP1, INPP5D; phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase 1 [EC:3.1.3.86] 
+<a href="/entry/K03103">K03103</a>               MINPP1; multiple inositol-polyphosphate phosphatase / 2,3-bisphosphoglycerate 3-phosphatase [EC:3.1. 
+<a href="/entry/K03335">K03335</a>               iolE; inosose dehydratase [EC:4.2.1.44] 
+<a href="/entry/K03336">K03336</a>               iolD; 3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing) [EC:3.7.1.22] 
+<a href="/entry/K03337">K03337</a>               iolB; 5-deoxy-glucuronate isomerase [EC:5.3.1.30] 
+<a href="/entry/K03338">K03338</a>               iolC; 5-dehydro-2-deoxygluconokinase [EC:2.7.1.92] 
+<a href="/entry/K03339">K03339</a>               iolJ; 6-phospho-5-dehydro-2-deoxy-D-gluconate aldolase [EC:4.1.2.29] 
+<a href="/entry/K05857">K05857</a>               PLCD; phosphatidylinositol phospholipase C, delta [EC:3.1.4.11] 
+<a href="/entry/K05858">K05858</a>               PLCB; phosphatidylinositol phospholipase C, beta [EC:3.1.4.11] 
+<a href="/entry/K05859">K05859</a>               PLCG2; phosphatidylinositol phospholipase C, gamma-2 [EC:3.1.4.11] 
+<a href="/entry/K05860">K05860</a>               PLCE; phosphatidylinositol phospholipase C, epsilon [EC:3.1.4.11] 
+<a href="/entry/K05861">K05861</a>               PLCZ; phosphatidylinositol phospholipase C, zeta [EC:3.1.4.11] 
+<a href="/entry/K06606">K06606</a>               iolI; 2-keto-myo-inositol isomerase [EC:5.3.99.11] 
+<a href="/entry/K07281">K07281</a>               ipct; 1L-myo-inositol 1-phosphate cytidylyltransferase [EC:2.7.7.74] 
+<a href="/entry/K07291">K07291</a>               dipps; CDP-L-myo-inositol myo-inositolphosphotransferase [EC:2.7.8.34] 
+<a href="/entry/K10047">K10047</a>               VTC4; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase [EC:3.1.3.25 3.1.3.93] 
+<a href="/entry/K10572">K10572</a>               IPPK; inositol-pentakisphosphate 2-kinase [EC:2.7.1.158] 
+<a href="/entry/K13711">K13711</a>               PI4K2; phosphatidylinositol 4-kinase type 2 [EC:2.7.1.67] 
+<a href="/entry/K13712">K13712</a>               PIP5KL1; phosphatidylinositol-4-phosphate 5-kinase-like protein 1 [EC:2.7.1.68] 
+<a href="/entry/K15422">K15422</a>               SAL; 3&#39;(2&#39;), 5&#39;-bisphosphate nucleotidase / inositol polyphosphate 1-phosphatase [EC:3.1.3.7 3.1.3.5 
+<a href="/entry/K15909">K15909</a>               SHIP2, INPPL1; phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase 2 [EC:3.1.3.86] 
+<a href="/entry/K16043">K16043</a>               iolX; scyllo-inositol 2-dehydrogenase (NAD+) [EC:1.1.1.370] 
+<a href="/entry/K16044">K16044</a>               iolW; scyllo-inositol 2-dehydrogenase (NADP+) [EC:1.1.1.371] 
+<a href="/entry/K16619">K16619</a>               plc, cpa; phospholipase C / alpha-toxin [EC:3.1.4.3] 
+<a href="/entry/K18081">K18081</a>               MTMR1_2; myotubularin-related protein 1/2 [EC:3.1.3.64 3.1.3.95] 
+<a href="/entry/K18082">K18082</a>               MTMR3_4, ZFYVE10_11; myotubularin-related protein 3/4 [EC:3.1.3.48 3.1.3.64 3.1.3.95] 
+<a href="/entry/K18083">K18083</a>               MTMR6_7_8; myotubularin-related protein 6/7/8 [EC:3.1.3.64 3.1.3.95] 
+<a href="/entry/K18086">K18086</a>               MTMR14; myotubularin-related protein 14 [EC:3.1.3.64 3.1.3.95] 
+<a href="/entry/K18649">K18649</a>               IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase 
+<a href="/entry/K19006">K19006</a>               PLCH; phosphatidylinositol phospholipase C, eta [EC:3.1.4.11] 
+<a href="/entry/K19517">K19517</a>               MIK; 1D-myo-inositol 3-kinase [EC:2.7.1.64] 
+<a href="/entry/K19786">K19786</a>               IPK1; inositol-pentakisphosphate 2-kinase [EC:2.7.1.158] 
+<a href="/entry/K19801">K19801</a>               PI4KB; phosphatidylinositol 4-kinase B [EC:2.7.1.67] 
+<a href="/entry/K20278">K20278</a>               INPP5E; inositol polyphosphate 5-phosphatase INPP5E [EC:3.1.3.36] 
+<a href="/entry/K20279">K20279</a>               SYNJ; synaptojanin [EC:3.1.3.36] 
+<a href="/entry/K21289">K21289</a>               PIK3CG; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [EC:2.7.1.153] 
+<a href="/entry/K21302">K21302</a>               sapM; phosphatidylinositol-3-phosphatase [EC:3.1.3.64] 
+<a href="/entry/K21797">K21797</a>               SAC1, SACM1L; phosphatidylinositol 4-phosphatase [EC:3.1.3.-] 
+<a href="/entry/K21798">K21798</a>               SAC2, INPP5F; phosphatidylinositol 4-phosphatase [EC:3.1.3.-] 
+<a href="/entry/K22230">K22230</a>               iolU; scyllo-inositol 2-dehydrogenase (NADP+) [EC:1.1.1.-] 
+<a href="/entry/K22231">K22231</a>               iolM; scyllo-inosose 3-dehydrogenase [EC:1.1.1.-] 
+<a href="/entry/K22232">K22232</a>               iolN; 3-dehydro-scyllo-inosose hydrolase [EC:3.7.1.-] 
+<a href="/entry/K22233">K22233</a>               iolO; 5-keto-L-gluconate epimerase [EC:5.1.-.-] 
+<a href="/entry/K22913">K22913</a>               FIG4; phosphatidylinositol 3,5-bisphosphate 5-phosphatase [EC:3.1.3.-] 
+<a href="/entry/K23992">K23992</a>               K23992; 1L-myo-inositol 1-phosphate cytidylyltransferase / CDP-L-myo-inositol myo-inositolphosphotra 
+<a href="/entry/K24221">K24221</a>               IP5P1_2; type I inositol polyphosphate 5-phosphatase IP5P1/2 [EC:3.1.3.56] 
+<a href="/entry/K24222">K24222</a>               INPP5J_K; inositol polyphosphate 5-phosphatase INPP5J/K [EC:3.1.3.56] 
+<a href="/entry/K27681">K27681</a>               pgsA; phosphatidylinositol phosphate synthase [EC:2.7.8.-] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

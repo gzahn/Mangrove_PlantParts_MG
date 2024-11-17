@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00010    </title>
+    <link href="/css/gn2.css?1731859734" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859734"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00010<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 107 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00001">K00001</a>               E1.1.1.1, adh; alcohol dehydrogenase [EC:1.1.1.1] 
+<a href="/entry/K00002">K00002</a>               AKR1A1, adh; alcohol dehydrogenase (NADP+) [EC:1.1.1.2] 
+<a href="/entry/K00016">K00016</a>               LDH, ldh; L-lactate dehydrogenase [EC:1.1.1.27] 
+<a href="/entry/K00114">K00114</a>               exaA; alcohol dehydrogenase (cytochrome c) [EC:1.1.2.8] 
+<a href="/entry/K00121">K00121</a>               frmA, ADH5, adhC; S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1 
+<a href="/entry/K00128">K00128</a>               ALDH; aldehyde dehydrogenase (NAD+) [EC:1.2.1.3] 
+<a href="/entry/K00129">K00129</a>               ALDH3; aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5] 
+<a href="/entry/K00131">K00131</a>               gapN; glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9] 
+<a href="/entry/K00134">K00134</a>               GAPDH, gapA; glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] 
+<a href="/entry/K00138">K00138</a>               aldB; aldehyde dehydrogenase [EC:1.2.1.-] 
+<a href="/entry/K00149">K00149</a>               ALDH9A1; aldehyde dehydrogenase family 9 member A1 [EC:1.2.1.47 1.2.1.3] 
+<a href="/entry/K00150">K00150</a>               gap2, gapB; glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59] 
+<a href="/entry/K00161">K00161</a>               PDHA, pdhA; pyruvate dehydrogenase E1 component subunit alpha [EC:1.2.4.1] 
+<a href="/entry/K00162">K00162</a>               PDHB, pdhB; pyruvate dehydrogenase E1 component subunit beta [EC:1.2.4.1] 
+<a href="/entry/K00163">K00163</a>               aceE; pyruvate dehydrogenase E1 component [EC:1.2.4.1] 
+<a href="/entry/K00169">K00169</a>               porA; pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] 
+<a href="/entry/K00170">K00170</a>               porB; pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1] 
+<a href="/entry/K00171">K00171</a>               porD; pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1] 
+<a href="/entry/K00172">K00172</a>               porC, porG; pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1] 
+<a href="/entry/K00174">K00174</a>               korA, oorA, oforA; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2. 
+<a href="/entry/K00175">K00175</a>               korB, oorB, oforB; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7 
+<a href="/entry/K00189">K00189</a>               vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1] 
+<a href="/entry/K00382">K00382</a>               DLD, lpd, pdhD; dihydrolipoyl dehydrogenase [EC:1.8.1.4] 
+<a href="/entry/K00627">K00627</a>               DLAT, aceF, pdhC; pyruvate dehydrogenase E2 component (dihydrolipoyllysine-residue acetyltransferase 
+<a href="/entry/K00844">K00844</a>               HK; hexokinase [EC:2.7.1.1] 
+<a href="/entry/K00845">K00845</a>               glk; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K00850">K00850</a>               pfkA, PFK; 6-phosphofructokinase 1 [EC:2.7.1.11] 
+<a href="/entry/K00873">K00873</a>               PK, pyk; pyruvate kinase [EC:2.7.1.40] 
+<a href="/entry/K00886">K00886</a>               ppgK; polyphosphate glucokinase [EC:2.7.1.63] 
+<a href="/entry/K00895">K00895</a>               pfp, PFP; diphosphate-dependent phosphofructokinase [EC:2.7.1.90] 
+<a href="/entry/K00918">K00918</a>               pfkC; ADP-dependent phosphofructokinase/glucokinase [EC:2.7.1.146 2.7.1.147] 
+<a href="/entry/K00927">K00927</a>               PGK, pgk; phosphoglycerate kinase [EC:2.7.2.3] 
+<a href="/entry/K01006">K01006</a>               ppdK; pyruvate, orthophosphate dikinase [EC:2.7.9.1] 
+<a href="/entry/K01007">K01007</a>               pps, ppsA; pyruvate, water dikinase [EC:2.7.9.2] 
+<a href="/entry/K01084">K01084</a>               G6PC; glucose-6-phosphatase [EC:3.1.3.9] 
+<a href="/entry/K01085">K01085</a>               agp; glucose-1-phosphatase [EC:3.1.3.10] 
+<a href="/entry/K01086">K01086</a>               fbp-SEBP; fructose-1,6-bisphosphatase I / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] 
+<a href="/entry/K01222">K01222</a>               E3.2.1.86A, celF; 6-phospho-beta-glucosidase [EC:3.2.1.86] 
+<a href="/entry/K01223">K01223</a>               E3.2.1.86B, bglA; 6-phospho-beta-glucosidase [EC:3.2.1.86] 
+<a href="/entry/K01568">K01568</a>               PDC, pdc; pyruvate decarboxylase [EC:4.1.1.1] 
+<a href="/entry/K01596">K01596</a>               E4.1.1.32, pckA, PCK; phosphoenolpyruvate carboxykinase (GTP) [EC:4.1.1.32] 
+<a href="/entry/K01610">K01610</a>               pckA; phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] 
+<a href="/entry/K01622">K01622</a>               K01622; fructose 1,6-bisphosphate aldolase/phosphatase [EC:4.1.2.13 3.1.3.11] 
+<a href="/entry/K01623">K01623</a>               ALDO; fructose-bisphosphate aldolase, class I [EC:4.1.2.13] 
+<a href="/entry/K01624">K01624</a>               FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13] 
+<a href="/entry/K01689">K01689</a>               ENO1_2_3, eno; enolase 1/2/3 [EC:4.2.1.11] 
+<a href="/entry/K01785">K01785</a>               galM, GALM; aldose 1-epimerase [EC:5.1.3.3] 
+<a href="/entry/K01792">K01792</a>               E5.1.3.15; glucose-6-phosphate 1-epimerase [EC:5.1.3.15] 
+<a href="/entry/K01803">K01803</a>               TPI, tpiA; triosephosphate isomerase (TIM) [EC:5.3.1.1] 
+<a href="/entry/K01810">K01810</a>               GPI, pgi; glucose-6-phosphate isomerase [EC:5.3.1.9] 
+<a href="/entry/K01834">K01834</a>               PGAM, gpmA; 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] 
+<a href="/entry/K01835">K01835</a>               pgm; phosphoglucomutase [EC:5.4.2.2] 
+<a href="/entry/K01837">K01837</a>               BPGM; bisphosphoglycerate/phosphoglycerate mutase [EC:5.4.2.4 5.4.2.11] 
+<a href="/entry/K01895">K01895</a>               ACSS1_2, acs; acetyl-CoA synthetase [EC:6.2.1.1] 
+<a href="/entry/K01905">K01905</a>               acdA; acetate---CoA ligase (ADP-forming) subunit alpha [EC:6.2.1.13] 
+<a href="/entry/K01913">K01913</a>               AAE7, ACN1; acetate/butyrate---CoA ligase [EC:6.2.1.1 6.2.1.2] 
+<a href="/entry/K02446">K02446</a>               glpX; fructose-1,6-bisphosphatase II [EC:3.1.3.11] 
+<a href="/entry/K02753">K02753</a>               ascF; beta-glucoside (arbutin/salicin/cellobiose) PTS system EIICB component [EC:2.7.1.-] 
+<a href="/entry/K02777">K02777</a>               crr; sugar PTS system EIIA component [EC:2.7.1.-] 
+<a href="/entry/K02779">K02779</a>               ptsG; glucose PTS system EIICB or EIICBA component [EC:2.7.1.199] 
+<a href="/entry/K02791">K02791</a>               malX; maltose/glucose PTS system EIICB component [EC:2.7.1.199 2.7.1.208] 
+<a href="/entry/K03103">K03103</a>               MINPP1; multiple inositol-polyphosphate phosphatase / 2,3-bisphosphoglycerate 3-phosphatase [EC:3.1. 
+<a href="/entry/K03737">K03737</a>               por, nifJ; pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.7.-] 
+<a href="/entry/K03841">K03841</a>               FBP, fbp; fructose-1,6-bisphosphatase I [EC:3.1.3.11] 
+<a href="/entry/K04022">K04022</a>               eutG; alcohol dehydrogenase 
+<a href="/entry/K04041">K04041</a>               fbp3; fructose-1,6-bisphosphatase III [EC:3.1.3.11] 
+<a href="/entry/K04072">K04072</a>               adhE; acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1] 
+<a href="/entry/K06859">K06859</a>               pgi1; glucose-6-phosphate isomerase, archaeal [EC:5.3.1.9] 
+<a href="/entry/K08074">K08074</a>               ADPGK; ADP-dependent glucokinase [EC:2.7.1.147] 
+<a href="/entry/K10705">K10705</a>               GAPDHS; glyceraldehyde-3-phosphate dehydrogenase (phosphorylating), spermatogenic [EC:1.2.1.12] 
+<a href="/entry/K11389">K11389</a>               gapor; glyceraldehyde-3-phosphate dehydrogenase (ferredoxin) [EC:1.2.7.6] 
+<a href="/entry/K11532">K11532</a>               glpX-SEBP; fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] 
+<a href="/entry/K11645">K11645</a>               fbaB; fructose-bisphosphate aldolase, class I [EC:4.1.2.13] 
+<a href="/entry/K12406">K12406</a>               PKLR; pyruvate kinase isozymes R/L [EC:2.7.1.40] 
+<a href="/entry/K12407">K12407</a>               GCK; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K12957">K12957</a>               ahr; alcohol/geraniol dehydrogenase (NADP+) [EC:1.1.1.2 1.1.1.183] 
+<a href="/entry/K13810">K13810</a>               tal-pgi; transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9] 
+<a href="/entry/K13951">K13951</a>               ADH1_7; alcohol dehydrogenase 1/7 [EC:1.1.1.1] 
+<a href="/entry/K13952">K13952</a>               ADH6; alcohol dehydrogenase 6 [EC:1.1.1.1] 
+<a href="/entry/K13953">K13953</a>               adhP; alcohol dehydrogenase, propanol-preferring [EC:1.1.1.1] 
+<a href="/entry/K13954">K13954</a>               yiaY; alcohol dehydrogenase [EC:1.1.1.1] 
+<a href="/entry/K13979">K13979</a>               yahK; alcohol dehydrogenase (NADP+) [EC:1.1.1.2] 
+<a href="/entry/K13980">K13980</a>               ADH4; alcohol dehydrogenase 4 [EC:1.1.1.1] 
+<a href="/entry/K14028">K14028</a>               mdh1, mxaF; methanol dehydrogenase (cytochrome c) subunit 1 [EC:1.1.2.7] 
+<a href="/entry/K14029">K14029</a>               mdh2, mxaI; methanol dehydrogenase (cytochrome c) subunit 2 [EC:1.1.2.7] 
+<a href="/entry/K14085">K14085</a>               ALDH7A1; aldehyde dehydrogenase family 7 member A1 [EC:1.2.1.31 1.2.1.8 1.2.1.3] 
+<a href="/entry/K15633">K15633</a>               gpmI; 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] 
+<a href="/entry/K15634">K15634</a>               gpmB; 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] 
+<a href="/entry/K15635">K15635</a>               apgM; 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] 
+<a href="/entry/K15778">K15778</a>               pmm-pgm; phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2] 
+<a href="/entry/K15779">K15779</a>               PGM2; phosphoglucomutase / phosphopentomutase [EC:5.4.2.2 5.4.2.7] 
+<a href="/entry/K15916">K15916</a>               pgi-pmi; glucose/mannose-6-phosphate isomerase [EC:5.3.1.9 5.3.1.8] 
+<a href="/entry/K16305">K16305</a>               K16305; fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase [EC:4.1.2.13 2. 
+<a href="/entry/K16306">K16306</a>               K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4 
+<a href="/entry/K16370">K16370</a>               pfkB; 6-phosphofructokinase 2 [EC:2.7.1.11] 
+<a href="/entry/K18857">K18857</a>               ADH1; alcohol dehydrogenase class-P [EC:1.1.1.1] 
+<a href="/entry/K18978">K18978</a>               gapN; glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] [EC:1.2.1.90] 
+<a href="/entry/K20118">K20118</a>               ptsG, glcA, glcB; glucose PTS system EIICBA or EIICB component [EC:2.7.1.199] 
+<a href="/entry/K20866">K20866</a>               yihX; glucose-1-phosphatase [EC:3.1.3.10] 
+<a href="/entry/K21071">K21071</a>               pfk, pfp; ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 
+<a href="/entry/K22224">K22224</a>               acdB; acetate---CoA ligase (ADP-forming) subunit beta [EC:6.2.1.13] 
+<a href="/entry/K22473">K22473</a>               adhA; alcohol dehydrogenase (quinone), dehydrogenase subunit [EC:1.1.5.5] 
+<a href="/entry/K22474">K22474</a>               adhB; alcohol dehydrogenase (quinone), cytochrome c subunit [EC:1.1.5.5] 
+<a href="/entry/K24012">K24012</a>               acdAB; acetate---CoA ligase (ADP-forming) [EC:6.2.1.13] 
+<a href="/entry/K24182">K24182</a>               PFK9; 6-phosphofructokinase [EC:2.7.1.11] 
+<a href="/entry/K25026">K25026</a>               glk; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K27394">K27394</a>               ENO4; enolase 4 [EC:4.2.1.11] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

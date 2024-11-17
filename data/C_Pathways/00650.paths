@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00650    </title>
+    <link href="/css/gn2.css?1731859717" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859717"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00650<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 114 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00004">K00004</a>               BDH, butB; (R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1 
+<a href="/entry/K00019">K00019</a>               BDH1, bdhA; 3-hydroxybutyrate dehydrogenase [EC:1.1.1.30] 
+<a href="/entry/K00022">K00022</a>               HADH; 3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35] 
+<a href="/entry/K00023">K00023</a>               phbB; acetoacetyl-CoA reductase [EC:1.1.1.36] 
+<a href="/entry/K00043">K00043</a>               gbd; 4-hydroxybutyrate dehydrogenase [EC:1.1.1.61] 
+<a href="/entry/K00074">K00074</a>               paaH, hbd, fadB, mmgB; 3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157] 
+<a href="/entry/K00100">K00100</a>               bdhAB; butanol dehydrogenase [EC:1.1.1.-] 
+<a href="/entry/K00109">K00109</a>               L2HGDH; 2-hydroxyglutarate dehydrogenase [EC:1.1.99.2] 
+<a href="/entry/K00132">K00132</a>               E1.2.1.10; acetaldehyde dehydrogenase (acetylating) [EC:1.2.1.10] 
+<a href="/entry/K00135">K00135</a>               gabD; succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1 
+<a href="/entry/K00139">K00139</a>               ALDH5A1; succinate-semialdehyde dehydrogenase [EC:1.2.1.24] 
+<a href="/entry/K00169">K00169</a>               porA; pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] 
+<a href="/entry/K00170">K00170</a>               porB; pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1] 
+<a href="/entry/K00171">K00171</a>               porD; pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1] 
+<a href="/entry/K00172">K00172</a>               porC, porG; pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1] 
+<a href="/entry/K00174">K00174</a>               korA, oorA, oforA; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2. 
+<a href="/entry/K00175">K00175</a>               korB, oorB, oforB; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7 
+<a href="/entry/K00189">K00189</a>               vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1] 
+<a href="/entry/K00209">K00209</a>               fabV, ter; enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase (NAD+) [EC:1.3.1.9 1 
+<a href="/entry/K00233">K00233</a>               frdA, fdrA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1 7.1.1.12] 
+<a href="/entry/K00239">K00239</a>               sdhA, frdA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] 
+<a href="/entry/K00240">K00240</a>               sdhB, frdB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] 
+<a href="/entry/K00241">K00241</a>               sdhC, frdC; succinate dehydrogenase cytochrome b subunit 
+<a href="/entry/K00242">K00242</a>               sdhD, frdD; succinate dehydrogenase membrane anchor subunit 
+<a href="/entry/K00244">K00244</a>               frdA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] 
+<a href="/entry/K00245">K00245</a>               frdB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] 
+<a href="/entry/K00246">K00246</a>               frdC; succinate dehydrogenase subunit C 
+<a href="/entry/K00247">K00247</a>               frdD; succinate dehydrogenase subunit D 
+<a href="/entry/K00248">K00248</a>               ACADS, bcd; butyryl-CoA dehydrogenase [EC:1.3.8.1] 
+<a href="/entry/K00626">K00626</a>               ACAT, atoB; acetyl-CoA C-acetyltransferase [EC:2.3.1.9] 
+<a href="/entry/K00634">K00634</a>               ptb; phosphate butyryltransferase [EC:2.3.1.19] 
+<a href="/entry/K00656">K00656</a>               E2.3.1.54, pflD; formate C-acetyltransferase [EC:2.3.1.54] 
+<a href="/entry/K00823">K00823</a>               puuE; 4-aminobutyrate aminotransferase [EC:2.6.1.19] 
+<a href="/entry/K00929">K00929</a>               buk; butyrate kinase [EC:2.7.2.7] 
+<a href="/entry/K01027">K01027</a>               OXCT; 3-oxoacid CoA-transferase [EC:2.8.3.5] 
+<a href="/entry/K01028">K01028</a>               scoA; 3-oxoacid CoA-transferase subunit A [EC:2.8.3.5] 
+<a href="/entry/K01029">K01029</a>               scoB; 3-oxoacid CoA-transferase subunit B [EC:2.8.3.5] 
+<a href="/entry/K01034">K01034</a>               atoD; acetate CoA/acetoacetate CoA-transferase alpha subunit [EC:2.8.3.8 2.8.3.9] 
+<a href="/entry/K01035">K01035</a>               atoA; acetate CoA/acetoacetate CoA-transferase beta subunit [EC:2.8.3.8 2.8.3.9] 
+<a href="/entry/K01039">K01039</a>               gctA; glutaconate CoA-transferase, subunit A [EC:2.8.3.12] 
+<a href="/entry/K01040">K01040</a>               gctB; glutaconate CoA-transferase, subunit B [EC:2.8.3.12] 
+<a href="/entry/K01574">K01574</a>               adc; acetoacetate decarboxylase [EC:4.1.1.4] 
+<a href="/entry/K01575">K01575</a>               alsD, budA, aldC; acetolactate decarboxylase [EC:4.1.1.5] 
+<a href="/entry/K01580">K01580</a>               E4.1.1.15, gadB, gadA, GAD; glutamate decarboxylase [EC:4.1.1.15] 
+<a href="/entry/K01615">K01615</a>               gcdA; glutaconyl-CoA decarboxylase subunit alpha [EC:7.2.4.5] 
+<a href="/entry/K01640">K01640</a>               HMGCL, hmgL; hydroxymethylglutaryl-CoA lyase [EC:4.1.3.4] 
+<a href="/entry/K01641">K01641</a>               HMGCS; hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10] 
+<a href="/entry/K01652">K01652</a>               E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6] 
+<a href="/entry/K01653">K01653</a>               E2.2.1.6S, ilvH, ilvN; acetolactate synthase I/III small subunit [EC:2.2.1.6] 
+<a href="/entry/K01692">K01692</a>               paaF, echA; enoyl-CoA hydratase [EC:4.2.1.17] 
+<a href="/entry/K01715">K01715</a>               crt; enoyl-CoA hydratase [EC:4.2.1.17] 
+<a href="/entry/K01782">K01782</a>               fadJ; 3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1 
+<a href="/entry/K01799">K01799</a>               nicE, maiA; maleate isomerase [EC:5.2.1.1] 
+<a href="/entry/K01825">K01825</a>               fadB; 3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl 
+<a href="/entry/K01896">K01896</a>               ACSM; medium-chain acyl-CoA synthetase [EC:6.2.1.2] 
+<a href="/entry/K01907">K01907</a>               AACS, acsA; acetoacetyl-CoA synthetase [EC:6.2.1.16] 
+<a href="/entry/K01913">K01913</a>               AAE7, ACN1; acetate/butyrate---CoA ligase [EC:6.2.1.1 6.2.1.2] 
+<a href="/entry/K03366">K03366</a>               butA, budC; meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC: 
+<a href="/entry/K03737">K03737</a>               por, nifJ; pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.7.-] 
+<a href="/entry/K03821">K03821</a>               phaC, phbC; poly[(R)-3-hydroxyalkanoate] polymerase subunit PhaC [EC:2.3.1.304] 
+<a href="/entry/K04072">K04072</a>               adhE; acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1] 
+<a href="/entry/K04073">K04073</a>               mhpF; acetaldehyde dehydrogenase [EC:1.2.1.10] 
+<a href="/entry/K05973">K05973</a>               phaZ; poly(3-hydroxybutyrate) depolymerase [EC:3.1.1.75] 
+<a href="/entry/K07246">K07246</a>               ttuC, dmlA; tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1. 
+<a href="/entry/K07250">K07250</a>               gabT; 4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase / 5-aminovalera 
+<a href="/entry/K07511">K07511</a>               ECHS1; enoyl-CoA hydratase [EC:4.2.1.17] 
+<a href="/entry/K07514">K07514</a>               EHHADH; enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase / 3,2-trans-enoyl-CoA isomerase [EC:4. 
+<a href="/entry/K07515">K07515</a>               HADHA; enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211] 
+<a href="/entry/K07516">K07516</a>               fadN; 3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35] 
+<a href="/entry/K07518">K07518</a>               E3.1.1.22; hydroxybutyrate-dimer hydrolase [EC:3.1.1.22] 
+<a href="/entry/K08318">K08318</a>               yihU; 4-hydroxybutyrate dehydrogenase / sulfolactaldehyde 3-reductase [EC:1.1.1.61 1.1.1.373] 
+<a href="/entry/K08324">K08324</a>               sad; succinate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.24] 
+<a href="/entry/K11258">K11258</a>               ilvM; acetolactate synthase II small subunit [EC:2.2.1.6] 
+<a href="/entry/K13524">K13524</a>               ABAT; 4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase [EC:2.6.1.19 2. 
+<a href="/entry/K14268">K14268</a>               davT, gabT; 5-aminovalerate/4-aminobutyrate aminotransferase [EC:2.6.1.48 2.6.1.19] 
+<a href="/entry/K14534">K14534</a>               abfD; 4-hydroxybutyryl-CoA dehydratase / vinylacetyl-CoA-Delta-isomerase [EC:4.2.1.120 5.3.3.3] 
+<a href="/entry/K16871">K16871</a>               POP2; 4-aminobutyrate---pyruvate transaminase [EC:2.6.1.96] 
+<a href="/entry/K17761">K17761</a>               SSADH; succinate-semialdehyde dehydrogenase, mitochondrial [EC:1.2.1.24] 
+<a href="/entry/K17829">K17829</a>               ccrA; crotonyl-CoA reductase [EC:1.3.1.86] 
+<a href="/entry/K17865">K17865</a>               croR; 3-hydroxybutyryl-CoA dehydratase [EC:4.2.1.55] 
+<a href="/entry/K18009">K18009</a>               budC; meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1. 
+<a href="/entry/K18118">K18118</a>               aarC, cat1; succinyl-CoA:acetate CoA-transferase [EC:2.8.3.18] 
+<a href="/entry/K18119">K18119</a>               sucD; succinate-semialdehyde dehydrogenase [EC:1.2.1.76] 
+<a href="/entry/K18120">K18120</a>               4hbD, abfH; 4-hydroxybutyrate dehydrogenase [EC:1.1.1.61] 
+<a href="/entry/K18121">K18121</a>               GLYR; glyoxylate/succinic semialdehyde reductase [EC:1.1.1.79 1.1.1.-] 
+<a href="/entry/K18122">K18122</a>               cat2, abfT; 4-hydroxybutyrate CoA-transferase [EC:2.8.3.-] 
+<a href="/entry/K18223">K18223</a>               prmA; propane 2-monooxygenase large subunit [EC:1.14.13.227] 
+<a href="/entry/K18224">K18224</a>               prmC; propane 2-monooxygenase small subunit [EC:1.14.13.227] 
+<a href="/entry/K18225">K18225</a>               prmB; propane monooxygenase reductase component [EC:1.18.1.-] 
+<a href="/entry/K18226">K18226</a>               prmD; propane monooxygenase coupling protein 
+<a href="/entry/K18366">K18366</a>               bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase [EC:1.2.1.10 1.2.1.87] 
+<a href="/entry/K18369">K18369</a>               adh2; alcohol dehydrogenase [EC:1.1.1.-] 
+<a href="/entry/K18370">K18370</a>               adh3; alcohol dehydrogenase [EC:1.1.1.-] 
+<a href="/entry/K18371">K18371</a>               acmA; acetone monooxygenase (methyl acetate-forming) [EC:1.14.13.226] 
+<a href="/entry/K18372">K18372</a>               acmB; methyl acetate hydrolase [EC:3.1.1.114] 
+<a href="/entry/K18382">K18382</a>               adh1; NAD+-dependent secondary alcohol dehydrogenase Adh1 [EC:1.1.1.-] 
+<a href="/entry/K18859">K18859</a>               sdhD, frdD; succinate dehydrogenase subunit D 
+<a href="/entry/K18860">K18860</a>               sdhD, frdD; succinate dehydrogenase subunit D 
+<a href="/entry/K19709">K19709</a>               ydiF; acetate CoA-transferase [EC:2.8.3.8] 
+<a href="/entry/K20509">K20509</a>               madB, oadB, gcdB, mmdB; carboxybiotin decarboxylase [EC:7.2.4.1] 
+<a href="/entry/K21317">K21317</a>               bmoX; butane monooxygenase alpha subunit [EC:1.14.13.230] 
+<a href="/entry/K21318">K21318</a>               bmoY; butane monooxygenase beta subunit [EC:1.14.13.230] 
+<a href="/entry/K21319">K21319</a>               bmoZ; butane monooxygenase gamma subunit [EC:1.14.13.230] 
+<a href="/entry/K21320">K21320</a>               bmoC; butane monooxygenase reductase 
+<a href="/entry/K21321">K21321</a>               bmoB; butane monooxygenase regulatory protein 
+<a href="/entry/K21322">K21322</a>               bmoD; butane monooxygenase hypothetical assembly protein 
+<a href="/entry/K22881">K22881</a>               phaE; poly[(R)-3-hydroxyalkanoate] polymerase subunit PhaE 
+<a href="/entry/K23259">K23259</a>               adh; isopropanol dehydrogenase (NADP+) [EC:1.1.1.80] 
+<a href="/entry/K23351">K23351</a>               gcdC, mmdC; glutaconyl-CoA/methylmalonyl-CoA decarboxylase subunit gamma 
+<a href="/entry/K23352">K23352</a>               gcdD, mmdD; glutaconyl-CoA/methylmalonyl-CoA decarboxylase subunit delta 
+<a href="/entry/K23756">K23756</a>               ACSM1, LAE; medium-chain acyl-CoA ligase / lipoate-activating enzyme [EC:6.2.1.2] 
+<a href="/entry/K25995">K25995</a>               frdB, fdrB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1 7.1.1.12] 
+<a href="/entry/K25996">K25996</a>               frdC, fdrC; succinate dehydrogenase subunit C 
+<a href="/entry/K26318">K26318</a>               fccA, fcc3; fumarate reductase (cytochrome) [EC:1.3.2.4] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

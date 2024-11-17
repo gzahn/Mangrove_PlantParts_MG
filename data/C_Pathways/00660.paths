@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00660    </title>
+    <link href="/css/gn2.css?1731859718" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859718"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00660<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 29 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00052">K00052</a>               leuB, IMDH; 3-isopropylmalate dehydrogenase [EC:1.1.1.85] 
+<a href="/entry/K01575">K01575</a>               alsD, budA, aldC; acetolactate decarboxylase [EC:4.1.1.5] 
+<a href="/entry/K01652">K01652</a>               E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6] 
+<a href="/entry/K01653">K01653</a>               E2.2.1.6S, ilvH, ilvN; acetolactate synthase I/III small subunit [EC:2.2.1.6] 
+<a href="/entry/K01703">K01703</a>               leuC, IPMI-L; 3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35] 
+<a href="/entry/K01704">K01704</a>               leuD, IPMI-S; 3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35] 
+<a href="/entry/K01846">K01846</a>               glmS, mutS, mamA; methylaspartate mutase sigma subunit [EC:5.4.99.1] 
+<a href="/entry/K01902">K01902</a>               sucD; succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] 
+<a href="/entry/K01903">K01903</a>               sucC; succinyl-CoA synthetase beta subunit [EC:6.2.1.5] 
+<a href="/entry/K04835">K04835</a>               mal; methylaspartate ammonia-lyase [EC:4.3.1.2] 
+<a href="/entry/K08691">K08691</a>               mcl; malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25] 
+<a href="/entry/K09011">K09011</a>               cimA; (R)-citramalate synthase [EC:2.3.3.21] 
+<a href="/entry/K10218">K10218</a>               ligK, galC; 4-hydroxy-4-methyl-2-oxoglutarate aldolase [EC:4.1.3.17] 
+<a href="/entry/K11258">K11258</a>               ilvM; acetolactate synthase II small subunit [EC:2.2.1.6] 
+<a href="/entry/K14449">K14449</a>               mch, mcd; 2-methylfumaryl-CoA hydratase [EC:4.2.1.148] 
+<a href="/entry/K14471">K14471</a>               smtA1; succinyl-CoA:(S)-malate CoA-transferase subunit A [EC:2.8.3.22] 
+<a href="/entry/K14472">K14472</a>               smtB; succinyl-CoA:(S)-malate CoA-transferase subunit B [EC:2.8.3.22] 
+<a href="/entry/K17724">K17724</a>               IRG1; aconitate decarboxylase [EC:4.1.1.6] 
+<a href="/entry/K18288">K18288</a>               ict-Y; itaconate CoA-transferase [EC:2.8.3.-] 
+<a href="/entry/K18289">K18289</a>               ict-P; itaconate CoA-transferase [EC:2.8.3.- 2.8.3.22] 
+<a href="/entry/K18290">K18290</a>               ich-Y; itaconyl-CoA hydratase [EC:4.2.1.56] 
+<a href="/entry/K18291">K18291</a>               ich-P; itaconyl-CoA hydratase / mesaconyl-C4 CoA hydratase [EC:4.2.1.56 4.2.1.-] 
+<a href="/entry/K18292">K18292</a>               E4.1.3.25; (S)-citramalyl-CoA lyase [EC:4.1.3.25] 
+<a href="/entry/K19268">K19268</a>               glmE, mutE, mamB; methylaspartate mutase epsilon subunit [EC:5.4.99.1] 
+<a href="/entry/K19281">K19281</a>               mcl; beta-methylmalyl-CoA/(S)-malyl-CoA lyase [EC:4.1.3.24] 
+<a href="/entry/K22002">K22002</a>               ADI1; aconitate Delta-isomerase [EC:5.3.3.7] 
+<a href="/entry/K22003">K22003</a>               ais; aconitate Delta-isomerase [EC:5.3.3.7] 
+<a href="/entry/K22004">K22004</a>               TAD1; trans-aconitate decarboxylase [EC:4.1.1.113] 
+<a href="/entry/K22005">K22005</a>               CYP3; itaconate hydroxylase 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

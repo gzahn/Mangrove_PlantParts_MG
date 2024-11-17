@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00040    </title>
+    <link href="/css/gn2.css?1731859731" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859731"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00040<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 90 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00002">K00002</a>               AKR1A1, adh; alcohol dehydrogenase (NADP+) [EC:1.1.1.2] 
+<a href="/entry/K00007">K00007</a>               dalD; D-arabinitol 4-dehydrogenase [EC:1.1.1.11] 
+<a href="/entry/K00008">K00008</a>               SORD, gutB; L-iditol 2-dehydrogenase [EC:1.1.1.14] 
+<a href="/entry/K00011">K00011</a>               AKR1B; aldehyde reductase [EC:1.1.1.21] 
+<a href="/entry/K00012">K00012</a>               UGDH, ugd; UDPglucose 6-dehydrogenase [EC:1.1.1.22] 
+<a href="/entry/K00039">K00039</a>               rbtD; ribitol 2-dehydrogenase [EC:1.1.1.56] 
+<a href="/entry/K00040">K00040</a>               uxuB; fructuronate reductase [EC:1.1.1.57] 
+<a href="/entry/K00041">K00041</a>               uxaB; tagaturonate reductase [EC:1.1.1.58] 
+<a href="/entry/K00065">K00065</a>               kduD; 2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase [EC:1.1.1.127] 
+<a href="/entry/K00078">K00078</a>               DHDH; dihydrodiol dehydrogenase / D-xylose 1-dehydrogenase (NADP) [EC:1.3.1.20 1.1.1.179] 
+<a href="/entry/K00594">K00594</a>               xyoA, aldO; alditol oxidase [EC:1.1.3.41] 
+<a href="/entry/K00699">K00699</a>               UGT; glucuronosyltransferase [EC:2.4.1.17] 
+<a href="/entry/K00848">K00848</a>               rhaB; rhamnulokinase [EC:2.7.1.5] 
+<a href="/entry/K00853">K00853</a>               araB; L-ribulokinase [EC:2.7.1.16] 
+<a href="/entry/K00854">K00854</a>               xylB, XYLB; xylulokinase [EC:2.7.1.17] 
+<a href="/entry/K00875">K00875</a>               rbtK, FGGY; D-ribulokinase [EC:2.7.1.47] 
+<a href="/entry/K00879">K00879</a>               fucK; L-fuculokinase [EC:2.7.1.51] 
+<a href="/entry/K00880">K00880</a>               lyxK; L-xylulokinase [EC:2.7.1.53] 
+<a href="/entry/K00963">K00963</a>               UGP2, galU, galF; UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9] 
+<a href="/entry/K01051">K01051</a>               E3.1.1.11; pectinesterase [EC:3.1.1.11] 
+<a href="/entry/K01184">K01184</a>               E3.2.1.15; polygalacturonase [EC:3.2.1.15] 
+<a href="/entry/K01195">K01195</a>               uidA, GUSB; beta-glucuronidase [EC:3.2.1.31] 
+<a href="/entry/K01213">K01213</a>               E3.2.1.67; galacturan 1,4-alpha-galacturonidase [EC:3.2.1.67] 
+<a href="/entry/K01628">K01628</a>               fucA; L-fuculose-phosphate aldolase [EC:4.1.2.17] 
+<a href="/entry/K01629">K01629</a>               rhaD; rhamnulose-1-phosphate aldolase [EC:4.1.2.19] 
+<a href="/entry/K01685">K01685</a>               uxaA; altronate hydrolase [EC:4.2.1.7] 
+<a href="/entry/K01686">K01686</a>               uxuA; mannonate dehydratase [EC:4.2.1.8] 
+<a href="/entry/K01728">K01728</a>               pel; pectate lyase [EC:4.2.2.2] 
+<a href="/entry/K01730">K01730</a>               ogl; oligogalacturonide lyase [EC:4.2.2.6] 
+<a href="/entry/K01731">K01731</a>               pelW; pectate disaccharide-lyase [EC:4.2.2.9] 
+<a href="/entry/K01783">K01783</a>               rpe, RPE; ribulose-phosphate 3-epimerase [EC:5.1.3.1] 
+<a href="/entry/K01804">K01804</a>               araA; L-arabinose isomerase [EC:5.3.1.4] 
+<a href="/entry/K01805">K01805</a>               xylA; xylose isomerase [EC:5.3.1.5] 
+<a href="/entry/K01812">K01812</a>               uxaC; glucuronate isomerase [EC:5.3.1.12] 
+<a href="/entry/K01815">K01815</a>               kduI; 4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase [EC:5.3.1.17] 
+<a href="/entry/K01818">K01818</a>               fucI; L-fucose/D-arabinose isomerase [EC:5.3.1.25 5.3.1.3] 
+<a href="/entry/K01820">K01820</a>               rhaA; L-rhamnose isomerase / sugar isomerase [EC:5.3.1.14 5.3.1.-] 
+<a href="/entry/K03077">K03077</a>               araD, ulaF, sgaE, sgbE; L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4] 
+<a href="/entry/K03078">K03078</a>               ulaD, sgaH, sgbH; 3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85] 
+<a href="/entry/K03079">K03079</a>               ulaE, sgaU, sgbU; L-ribulose-5-phosphate 3-epimerase [EC:5.1.3.22] 
+<a href="/entry/K03331">K03331</a>               DCXR; L-xylulose reductase [EC:1.1.1.10] 
+<a href="/entry/K05351">K05351</a>               E1.1.1.9; D-xylulose reductase [EC:1.1.1.9] 
+<a href="/entry/K05352">K05352</a>               tarJ; ribitol-5-phosphate 2-dehydrogenase (NADP+) [EC:1.1.1.405] 
+<a href="/entry/K08092">K08092</a>               dlgD; 3-dehydro-L-gulonate 2-dehydrogenase [EC:1.1.1.130] 
+<a href="/entry/K08322">K08322</a>               rspB; L-gulonate 5-dehydrogenase [EC:1.1.1.380] 
+<a href="/entry/K08323">K08323</a>               rspA, manD; mannonate dehydratase [EC:4.2.1.8] 
+<a href="/entry/K09988">K09988</a>               lyxA; D-lyxose ketol-isomerase [EC:5.3.1.15] 
+<a href="/entry/K12447">K12447</a>               USP; UDP-sugar pyrophosphorylase [EC:2.7.7.64] 
+<a href="/entry/K13247">K13247</a>               CRYL1; L-gulonate 3-dehydrogenase [EC:1.1.1.45] 
+<a href="/entry/K13877">K13877</a>               aldH; 2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26] 
+<a href="/entry/K14259">K14259</a>               kdaD, xacE, kdxD; 2-dehydro-3-deoxy-D-arabinonate dehydratase [EC:4.2.1.141] 
+<a href="/entry/K14273">K14273</a>               xdh; D-xylose 1-dehydrogenase (NADP+, D-xylono-1,5-lactone-forming) [EC:1.1.1.179] 
+<a href="/entry/K14274">K14274</a>               xylC; xylono-1,5-lactonase [EC:3.1.1.110] 
+<a href="/entry/K14275">K14275</a>               xad; D-xylonate dehydratase [EC:4.2.1.82] 
+<a href="/entry/K14756">K14756</a>               KL; klotho [EC:3.2.1.31] 
+<a href="/entry/K16190">K16190</a>               GLCAK; glucuronokinase [EC:2.7.1.43] 
+<a href="/entry/K16849">K16849</a>               uxaA1; altronate dehydratase small subunit [EC:4.2.1.7] 
+<a href="/entry/K16850">K16850</a>               uxaA2; altronate dehydratase large subunit [EC:4.2.1.7] 
+<a href="/entry/K17738">K17738</a>               ARD; D-arabinitol 2-dehydrogenase [EC:1.1.1.250] 
+<a href="/entry/K17743">K17743</a>               XYL1, XYRA; D-xylose reductase [EC:1.1.1.307 1.1.1.430 1.1.1.431] 
+<a href="/entry/K17818">K17818</a>               ARD1; D-arabinitol dehydrogenase (NADP+) [EC:1.1.1.287] 
+<a href="/entry/K18102">K18102</a>               GAAB, LGD1; L-galactonate dehydratase [EC:4.2.1.146] 
+<a href="/entry/K18103">K18103</a>               GAAC, LGA1; L-threo-3-deoxy-hexylosonate aldolase [EC:4.1.2.54] 
+<a href="/entry/K18106">K18106</a>               GAAA; D-galacturonate reductase [EC:1.1.1.-] 
+<a href="/entry/K18107">K18107</a>               GAAD; L-glyceraldehyde reductase [EC:1.1.1.372] 
+<a href="/entry/K19551">K19551</a>               pelC; pectate lyase C [EC:4.2.2.2 4.2.2.10] 
+<a href="/entry/K19588">K19588</a>               dopDH; 2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26] 
+<a href="/entry/K19634">K19634</a>               gar1; D-galacturonate reductase [EC:1.1.1.365] 
+<a href="/entry/K21030">K21030</a>               tarI; D-ribitol-5-phosphate cytidylyltransferase [EC:2.7.7.40] 
+<a href="/entry/K21031">K21031</a>               ISPD; D-ribitol-5-phosphate cytidylyltransferase [EC:2.7.7.40] 
+<a href="/entry/K21619">K21619</a>               uxaE; tagaturonate epimerase [EC:5.1.2.7] 
+<a href="/entry/K21680">K21680</a>               E1.1.1.137; ribulose-5-phosphate 2-dehydrogenase [EC:1.1.1.137] 
+<a href="/entry/K21681">K21681</a>               bcs1; ribitol-5-phosphate 2-dehydrogenase (NADP+) / D-ribitol-5-phosphate cytidylyltransferase [EC:1 
+<a href="/entry/K22185">K22185</a>               xylB; D-xylose 1-dehydrogenase [EC:1.1.1.175] 
+<a href="/entry/K22186">K22186</a>               xylD; xylonate dehydratase [EC:4.2.1.82] 
+<a href="/entry/K22187">K22187</a>               xylA; alpha-ketoglutaric semialdehyde dehydrogenase [EC:1.2.1.-] 
+<a href="/entry/K22396">K22396</a>               yjhG, yagF; xylonate dehydratase [EC:4.2.1.82] 
+<a href="/entry/K22397">K22397</a>               yjhH, yagE; 2-dehydro-3-deoxy-D-pentonate aldolase [EC:4.1.2.28] 
+<a href="/entry/K22539">K22539</a>               PLY; pectate lyase [EC:4.2.2.2] 
+<a href="/entry/K22933">K22933</a>               lplD; galacturan 1,4-alpha-galacturonidase [EC:3.2.1.67] 
+<a href="/entry/K22935">K22935</a>               XK1, psk; D-ribulokinase [EC:2.7.1.47] 
+<a href="/entry/K22994">K22994</a>               pelX; pectate disaccharide-lyase [EC:4.2.2.9] 
+<a href="/entry/K24442">K24442</a>               xacA; D-xylose 1-dehydrogenase (NADP+, D-xylono-1,4-lactone-forming) [EC:1.1.1.424] 
+<a href="/entry/K24443">K24443</a>               xacC; D-xylono/L-arabinono-1,4-lactonase [EC:3.1.1.68 3.1.1.15] 
+<a href="/entry/K24707">K24707</a>               E2.7.1.16; ribulokinase [EC:2.7.1.16] 
+<a href="/entry/K25879">K25879</a>               LXRA; L-xylulose reductase [EC:1.1.1.10] 
+<a href="/entry/K25880">K25880</a>               LADA; L-arabinitol 4-dehydrogenase [EC:1.1.1.12] 
+<a href="/entry/K25881">K25881</a>               LARA; L-arabinose reductase [EC:1.1.1.-] 
+<a href="/entry/K26066">K26066</a>               XYRB; D-xylose/L-arabinose reductase (NADPH) [EC:1.1.1.431 1.1.1.-] 
+<a href="/entry/K26933">K26933</a>               kdgF; unsaturated pyranuronate lyase [EC:4.2.99.25] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

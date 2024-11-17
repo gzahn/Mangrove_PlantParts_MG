@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00051    </title>
+    <link href="/css/gn2.css?1731859730" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859730"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00051<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 115 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00007">K00007</a>               dalD; D-arabinitol 4-dehydrogenase [EC:1.1.1.11] 
+<a href="/entry/K00008">K00008</a>               SORD, gutB; L-iditol 2-dehydrogenase [EC:1.1.1.14] 
+<a href="/entry/K00009">K00009</a>               mtlD; mannitol-1-phosphate 5-dehydrogenase [EC:1.1.1.17] 
+<a href="/entry/K00011">K00011</a>               AKR1B; aldehyde reductase [EC:1.1.1.21] 
+<a href="/entry/K00045">K00045</a>               mtlK, MAN; mannitol 2-dehydrogenase [EC:1.1.1.67] 
+<a href="/entry/K00064">K00064</a>               E1.1.1.122; D-threo-aldose 1-dehydrogenase [EC:1.1.1.122] 
+<a href="/entry/K00066">K00066</a>               algD; GDP-mannose 6-dehydrogenase [EC:1.1.1.132] 
+<a href="/entry/K00068">K00068</a>               srlD; sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140] 
+<a href="/entry/K00594">K00594</a>               xyoA, aldO; alditol oxidase [EC:1.1.3.41] 
+<a href="/entry/K00844">K00844</a>               HK; hexokinase [EC:2.7.1.1] 
+<a href="/entry/K00846">K00846</a>               KHK; ketohexokinase [EC:2.7.1.3] 
+<a href="/entry/K00847">K00847</a>               E2.7.1.4, scrK; fructokinase [EC:2.7.1.4] 
+<a href="/entry/K00848">K00848</a>               rhaB; rhamnulokinase [EC:2.7.1.5] 
+<a href="/entry/K00850">K00850</a>               pfkA, PFK; 6-phosphofructokinase 1 [EC:2.7.1.11] 
+<a href="/entry/K00863">K00863</a>               DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing) [EC:2.7.1.28 2.7.1.29 4.6.1.15 
+<a href="/entry/K00879">K00879</a>               fucK; L-fuculokinase [EC:2.7.1.51] 
+<a href="/entry/K00881">K00881</a>               alsK; allose kinase [EC:2.7.1.55] 
+<a href="/entry/K00882">K00882</a>               fruK; 1-phosphofructokinase [EC:2.7.1.56] 
+<a href="/entry/K00895">K00895</a>               pfp, PFP; diphosphate-dependent phosphofructokinase [EC:2.7.1.90] 
+<a href="/entry/K00900">K00900</a>               E2.7.1.105, PFK; 6-phosphofructo-2-kinase [EC:2.7.1.105] 
+<a href="/entry/K00966">K00966</a>               GMPP; mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] 
+<a href="/entry/K00971">K00971</a>               manC, cpsB; mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] 
+<a href="/entry/K00976">K00976</a>               FPGT; fucose-1-phosphate guanylyltransferase [EC:2.7.7.30] 
+<a href="/entry/K01086">K01086</a>               fbp-SEBP; fructose-1,6-bisphosphatase I / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] 
+<a href="/entry/K01103">K01103</a>               PFKFB3; 6-phosphofructo-2-kinase / fructose-2,6-biphosphatase 3 [EC:2.7.1.105 3.1.3.46] 
+<a href="/entry/K01218">K01218</a>               gmuG; mannan endo-1,4-beta-mannosidase [EC:3.2.1.78] 
+<a href="/entry/K01622">K01622</a>               K01622; fructose 1,6-bisphosphate aldolase/phosphatase [EC:4.1.2.13 3.1.3.11] 
+<a href="/entry/K01623">K01623</a>               ALDO; fructose-bisphosphate aldolase, class I [EC:4.1.2.13] 
+<a href="/entry/K01624">K01624</a>               FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13] 
+<a href="/entry/K01628">K01628</a>               fucA; L-fuculose-phosphate aldolase [EC:4.1.2.17] 
+<a href="/entry/K01629">K01629</a>               rhaD; rhamnulose-1-phosphate aldolase [EC:4.1.2.19] 
+<a href="/entry/K01711">K01711</a>               gmd, GMDS; GDPmannose 4,6-dehydratase [EC:4.2.1.47] 
+<a href="/entry/K01729">K01729</a>               algL; poly(beta-D-mannuronate) lyase [EC:4.2.2.3] 
+<a href="/entry/K01795">K01795</a>               algG; mannuronan 5-epimerase [EC:5.1.3.37] 
+<a href="/entry/K01803">K01803</a>               TPI, tpiA; triosephosphate isomerase (TIM) [EC:5.3.1.1] 
+<a href="/entry/K01805">K01805</a>               xylA; xylose isomerase [EC:5.3.1.5] 
+<a href="/entry/K01808">K01808</a>               rpiB; ribose 5-phosphate isomerase B [EC:5.3.1.6] 
+<a href="/entry/K01809">K01809</a>               manA, MPI; mannose-6-phosphate isomerase [EC:5.3.1.8] 
+<a href="/entry/K01813">K01813</a>               rhaA; L-rhamnose isomerase [EC:5.3.1.14] 
+<a href="/entry/K01818">K01818</a>               fucI; L-fucose/D-arabinose isomerase [EC:5.3.1.25 5.3.1.3] 
+<a href="/entry/K01820">K01820</a>               rhaA; L-rhamnose isomerase / sugar isomerase [EC:5.3.1.14 5.3.1.-] 
+<a href="/entry/K01840">K01840</a>               manB; phosphomannomutase [EC:5.4.2.8] 
+<a href="/entry/K02377">K02377</a>               TSTA3, fcl; GDP-L-fucose synthase [EC:1.1.1.271] 
+<a href="/entry/K02446">K02446</a>               glpX; fructose-1,6-bisphosphatase II [EC:3.1.3.11] 
+<a href="/entry/K02768">K02768</a>               fruB; fructose PTS system EIIA component [EC:2.7.1.202] 
+<a href="/entry/K02769">K02769</a>               fruAb; fructose PTS system EIIB component [EC:2.7.1.202] 
+<a href="/entry/K02770">K02770</a>               fruA; fructose PTS system EIIBC or EIIC component [EC:2.7.1.202] 
+<a href="/entry/K02771">K02771</a>               levG; fructose PTS system EIID component 
+<a href="/entry/K02781">K02781</a>               srlB; glucitol/sorbitol PTS system EIIA component [EC:2.7.1.198] 
+<a href="/entry/K02782">K02782</a>               srlE; glucitol/sorbitol PTS system EIIB component [EC:2.7.1.198] 
+<a href="/entry/K02783">K02783</a>               srlA; glucitol/sorbitol PTS system EIIC component 
+<a href="/entry/K02793">K02793</a>               manXa; mannose PTS system EIIA component [EC:2.7.1.191] 
+<a href="/entry/K02794">K02794</a>               manX; mannose PTS system EIIAB component [EC:2.7.1.191] 
+<a href="/entry/K02795">K02795</a>               manY; mannose PTS system EIIC component 
+<a href="/entry/K02796">K02796</a>               manZ; mannose PTS system EIID component 
+<a href="/entry/K02798">K02798</a>               cmtB; mannitol PTS system EIIA component [EC:2.7.1.197] 
+<a href="/entry/K02800">K02800</a>               mtlA, cmtA; mannitol PTS system EIICBA or EIICB component [EC:2.7.1.197] 
+<a href="/entry/K02812">K02812</a>               sorF, sorA; sorbose PTS system EIIA component [EC:2.7.1.206] 
+<a href="/entry/K02813">K02813</a>               sorB; sorbose PTS system EIIB component [EC:2.7.1.206] 
+<a href="/entry/K02814">K02814</a>               sorA, sorC; sorbose PTS system EIIC component 
+<a href="/entry/K02815">K02815</a>               sorM, sorD; sorbose PTS system EIID component 
+<a href="/entry/K03332">K03332</a>               fruA; fructan beta-fructosidase [EC:3.2.1.80] 
+<a href="/entry/K03841">K03841</a>               FBP, fbp; fructose-1,6-bisphosphatase I [EC:3.1.3.11] 
+<a href="/entry/K04041">K04041</a>               fbp3; fructose-1,6-bisphosphatase III [EC:3.1.3.11] 
+<a href="/entry/K05305">K05305</a>               FUK; fucokinase [EC:2.7.1.52] 
+<a href="/entry/K05947">K05947</a>               E2.4.1.217; mannosyl-3-phosphoglycerate synthase [EC:2.4.1.217] 
+<a href="/entry/K07026">K07026</a>               E3.1.3.70; mannosyl-3-phosphoglycerate phosphatase [EC:3.1.3.70] 
+<a href="/entry/K07046">K07046</a>               E3.1.1.120; L-fucono-1,5-lactonase [EC:3.1.1.120] 
+<a href="/entry/K08261">K08261</a>               E1.1.99.21; D-sorbitol dehydrogenase (acceptor) [EC:1.1.99.21] 
+<a href="/entry/K11194">K11194</a>               levD; fructose PTS system EIIA component [EC:2.7.1.202] 
+<a href="/entry/K11195">K11195</a>               levE; fructose PTS system EIIB component [EC:2.7.1.202] 
+<a href="/entry/K11196">K11196</a>               levF; fructose PTS system EIIC component 
+<a href="/entry/K11532">K11532</a>               glpX-SEBP; fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] 
+<a href="/entry/K11645">K11645</a>               fbaB; fructose-bisphosphate aldolase, class I [EC:4.1.2.13] 
+<a href="/entry/K12660">K12660</a>               rhmA; 2-dehydro-3-deoxy-L-rhamnonate aldolase [EC:4.1.2.53] 
+<a href="/entry/K12661">K12661</a>               LRA3, rhmD; L-rhamnonate dehydratase [EC:4.2.1.90] 
+<a href="/entry/K14634">K14634</a>               TIGAR; fructose-2,6-bisphosphatase [EC:3.1.3.46] 
+<a href="/entry/K15778">K15778</a>               pmm-pgm; phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2] 
+<a href="/entry/K15856">K15856</a>               rmd; GDP-4-dehydro-6-deoxy-D-mannose reductase [EC:1.1.1.281] 
+<a href="/entry/K15916">K15916</a>               pgi-pmi; glucose/mannose-6-phosphate isomerase [EC:5.3.1.9 5.3.1.8] 
+<a href="/entry/K16011">K16011</a>               algA, xanB, rfbA, wbpW, pslB; mannose-1-phosphate guanylyltransferase / mannose-6-phosphate isomeras 
+<a href="/entry/K16305">K16305</a>               K16305; fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase [EC:4.1.2.13 2. 
+<a href="/entry/K16306">K16306</a>               K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4 
+<a href="/entry/K16370">K16370</a>               pfkB; 6-phosphofructokinase 2 [EC:2.7.1.11] 
+<a href="/entry/K16881">K16881</a>               K16881; mannose-1-phosphate guanylyltransferase / phosphomannomutase [EC:2.7.7.13 5.4.2.8] 
+<a href="/entry/K17195">K17195</a>               alsE; D-allulose-6-phosphate 3-epimerase [EC:5.1.3.-] 
+<a href="/entry/K17497">K17497</a>               PMM; phosphomannomutase [EC:5.4.2.8] 
+<a href="/entry/K17742">K17742</a>               SOU1; sorbose reductase [EC:1.1.1.289] 
+<a href="/entry/K18333">K18333</a>               E1.1.1.435; L-fucose dehydrogenase [EC:1.1.1.435] 
+<a href="/entry/K18334">K18334</a>               fucD; L-fuconate dehydratase [EC:4.2.1.68] 
+<a href="/entry/K18335">K18335</a>               E1.1.1.434; 2-dehydro-3-deoxy-L-fuconate 4-dehydrogenase [EC:1.1.1.434] 
+<a href="/entry/K18336">K18336</a>               lra6; 2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26] 
+<a href="/entry/K18337">K18337</a>               LRA1; L-rhamnose 1-dehydrogenase [EC:1.1.1.378 1.1.1.377 1.1.1.173] 
+<a href="/entry/K18338">K18338</a>               LRA2; L-rhamnono-1,4-lactonase [EC:3.1.1.65] 
+<a href="/entry/K18339">K18339</a>               LRA4; 2-keto-3-deoxy-L-rhamnonate aldolase [EC:4.1.2.53] 
+<a href="/entry/K18447">K18447</a>               NUDX14; ADP-sugar diphosphatase [EC:3.6.1.21] 
+<a href="/entry/K18818">K18818</a>               mgs; mannosylglycerate synthase [EC:2.4.1.269] 
+<a href="/entry/K19028">K19028</a>               PFKFB1; 6-phosphofructo-2-kinase / fructose-2,6-biphosphatase 1 [EC:2.7.1.105 3.1.3.46] 
+<a href="/entry/K19029">K19029</a>               PFKFB2; 6-phosphofructo-2-kinase / fructose-2,6-biphosphatase 2 [EC:2.7.1.105 3.1.3.46] 
+<a href="/entry/K19030">K19030</a>               PFKFB4; 6-phosphofructo-2-kinase / fructose-2,6-biphosphatase 4 [EC:2.7.1.105 3.1.3.46] 
+<a href="/entry/K19270">K19270</a>               hxpA; mannitol-1-/sugar-/sorbitol-6-phosphatase [EC:3.1.3.22 3.1.3.23 3.1.3.50] 
+<a href="/entry/K19290">K19290</a>               alg8; mannuronan synthase [EC:2.4.1.33] 
+<a href="/entry/K19291">K19291</a>               alg44; mannuronan synthase [EC:2.4.1.33] 
+<a href="/entry/K19355">K19355</a>               MAN; mannan endo-1,4-beta-mannosidase [EC:3.2.1.78] 
+<a href="/entry/K19633">K19633</a>               sr; sorbose reductase [EC:1.1.1.289] 
+<a href="/entry/K19956">K19956</a>               sorE; L-sorbose 1-phosphate reductase [EC:1.1.1.-] 
+<a href="/entry/K21071">K21071</a>               pfk, pfp; ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 
+<a href="/entry/K21883">K21883</a>               lra5; 2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401] 
+<a href="/entry/K22252">K22252</a>               tld; GDP-6-deoxy-D-talose 4-dehydrogenase [EC:1.1.1.135] 
+<a href="/entry/K24182">K24182</a>               PFK9; 6-phosphofructokinase [EC:2.7.1.11] 
+<a href="/entry/K24204">K24204</a>               hxpB; mannitol-1-/sugar-/sorbitol-6-/2-deoxyglucose-6-phosphatase [EC:3.1.3.22 3.1.3.23 3.1.3.50 3.1 
+<a href="/entry/K25814">K25814</a>               manP; mannose PTS system EIIBCA component [EC:2.7.1.191] 
+<a href="/entry/K26911">K26911</a>               fucH; 2-dehydro-3-deoxy-L-fuconate aldolase [EC:4.1.2.64] 
+<a href="/entry/K27475">K27475</a>               khk; ketohexokinase [EC:2.7.1.3] 
+<a href="/entry/K27924">K27924</a>               mscM; mannitol 2-dehydrogenase [EC:1.1.1.67] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

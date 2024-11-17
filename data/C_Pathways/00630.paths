@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00630    </title>
+    <link href="/css/gn2.css?1731859721" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859721"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00630<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 110 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00015">K00015</a>               gyaR, GOR1; glyoxylate reductase [EC:1.1.1.26] 
+<a href="/entry/K00018">K00018</a>               hprA; glycerate dehydrogenase [EC:1.1.1.29] 
+<a href="/entry/K00023">K00023</a>               phbB; acetoacetyl-CoA reductase [EC:1.1.1.36] 
+<a href="/entry/K00024">K00024</a>               mdh; malate dehydrogenase [EC:1.1.1.37] 
+<a href="/entry/K00025">K00025</a>               MDH1; malate dehydrogenase [EC:1.1.1.37] 
+<a href="/entry/K00026">K00026</a>               MDH2; malate dehydrogenase [EC:1.1.1.37] 
+<a href="/entry/K00042">K00042</a>               garR, glxR; 2-hydroxy-3-oxopropionate reductase [EC:1.1.1.60] 
+<a href="/entry/K00048">K00048</a>               fucO; lactaldehyde reductase [EC:1.1.1.77] 
+<a href="/entry/K00049">K00049</a>               GRHPR; glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81] 
+<a href="/entry/K00090">K00090</a>               ghrB; glyoxylate/hydroxypyruvate/2-ketogluconate reductase [EC:1.1.1.79 1.1.1.81 1.1.1.215] 
+<a href="/entry/K00104">K00104</a>               glcD; glycolate dehydrogenase FAD-linked subunit [EC:1.1.99.14] 
+<a href="/entry/K00122">K00122</a>               FDH; formate dehydrogenase [EC:1.17.1.9] 
+<a href="/entry/K00123">K00123</a>               fdoG, fdhF, fdwA; formate dehydrogenase major subunit [EC:1.17.1.9] 
+<a href="/entry/K00124">K00124</a>               fdoH, fdsB; formate dehydrogenase iron-sulfur subunit 
+<a href="/entry/K00126">K00126</a>               fdsD; formate dehydrogenase subunit delta [EC:1.17.1.9] 
+<a href="/entry/K00127">K00127</a>               fdoI, fdsG; formate dehydrogenase subunit gamma 
+<a href="/entry/K00281">K00281</a>               GLDC, gcvP; glycine cleavage system P protein (glycine dehydrogenase) [EC:1.4.4.2] 
+<a href="/entry/K00282">K00282</a>               gcvPA; glycine cleavage system P protein (glycine dehydrogenase) subunit 1 [EC:1.4.4.2] 
+<a href="/entry/K00283">K00283</a>               gcvPB; glycine cleavage system P protein (glycine dehydrogenase) subunit 2 [EC:1.4.4.2] 
+<a href="/entry/K00284">K00284</a>               GLU, gltS; glutamate synthase (ferredoxin) [EC:1.4.7.1] 
+<a href="/entry/K00382">K00382</a>               DLD, lpd, pdhD; dihydrolipoyl dehydrogenase [EC:1.8.1.4] 
+<a href="/entry/K00600">K00600</a>               glyA, SHMT; glycine hydroxymethyltransferase [EC:2.1.2.1] 
+<a href="/entry/K00605">K00605</a>               gcvT, AMT; glycine cleavage system T protein (aminomethyltransferase) [EC:2.1.2.10] 
+<a href="/entry/K00626">K00626</a>               ACAT, atoB; acetyl-CoA C-acetyltransferase [EC:2.3.1.9] 
+<a href="/entry/K00830">K00830</a>               AGXT; alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminas 
+<a href="/entry/K00865">K00865</a>               glxK, garK; glycerate 2-kinase [EC:2.7.1.165] 
+<a href="/entry/K01091">K01091</a>               gph; phosphoglycolate phosphatase [EC:3.1.3.18] 
+<a href="/entry/K01432">K01432</a>               AFMID; arylformamidase [EC:3.5.1.9] 
+<a href="/entry/K01433">K01433</a>               purU; formyltetrahydrofolate deformylase [EC:3.5.1.10] 
+<a href="/entry/K01455">K01455</a>               E3.5.1.49; formamidase [EC:3.5.1.49] 
+<a href="/entry/K01458">K01458</a>               hutG; N-formylglutamate deformylase [EC:3.5.1.68] 
+<a href="/entry/K01569">K01569</a>               oxdD; oxalate decarboxylase [EC:4.1.1.2] 
+<a href="/entry/K01577">K01577</a>               oxc; oxalyl-CoA decarboxylase [EC:4.1.1.8] 
+<a href="/entry/K01601">K01601</a>               rbcL, cbbL; ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39] 
+<a href="/entry/K01602">K01602</a>               rbcS, cbbS; ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39] 
+<a href="/entry/K01608">K01608</a>               gcl; tartronate-semialdehyde synthase [EC:4.1.1.47] 
+<a href="/entry/K01616">K01616</a>               kgd; multifunctional 2-oxoglutarate metabolism enzyme [EC:2.2.1.5 4.1.1.71 1.2.4.2 2.3.1.61] 
+<a href="/entry/K01625">K01625</a>               eda; 2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase [EC:4.1.2.1 
+<a href="/entry/K01636">K01636</a>               K01636; ribulose 1-phosphate aldolase [EC:4.1.2.-] 
+<a href="/entry/K01637">K01637</a>               ICL, aceA; isocitrate/methylisocitrate lyase [EC:4.1.3.1 4.1.3.30] 
+<a href="/entry/K01638">K01638</a>               aceB, glcB; malate synthase [EC:2.3.3.9] 
+<a href="/entry/K01647">K01647</a>               CS, gltA; citrate synthase [EC:2.3.3.1] 
+<a href="/entry/K01659">K01659</a>               prpC; 2-methylcitrate synthase [EC:2.3.3.5] 
+<a href="/entry/K01681">K01681</a>               ACO; aconitate hydratase [EC:4.2.1.3] 
+<a href="/entry/K01682">K01682</a>               acnB; aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] 
+<a href="/entry/K01816">K01816</a>               hyi, gip; hydroxypyruvate isomerase [EC:5.3.1.22] 
+<a href="/entry/K01846">K01846</a>               glmS, mutS, mamA; methylaspartate mutase sigma subunit [EC:5.4.99.1] 
+<a href="/entry/K01847">K01847</a>               MUT; methylmalonyl-CoA mutase [EC:5.4.99.2] 
+<a href="/entry/K01848">K01848</a>               E5.4.99.2A, mcmA1; methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2] 
+<a href="/entry/K01849">K01849</a>               E5.4.99.2B, mcmA2; methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2] 
+<a href="/entry/K01895">K01895</a>               ACSS1_2, acs; acetyl-CoA synthetase [EC:6.2.1.1] 
+<a href="/entry/K01913">K01913</a>               AAE7, ACN1; acetate/butyrate---CoA ligase [EC:6.2.1.1 6.2.1.2] 
+<a href="/entry/K01915">K01915</a>               glnA, GLUL; glutamine synthetase [EC:6.3.1.2] 
+<a href="/entry/K01964">K01964</a>               K01964; acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3] 
+<a href="/entry/K01965">K01965</a>               PCCA, pccA; propionyl-CoA carboxylase alpha subunit [EC:6.4.1.3] 
+<a href="/entry/K01966">K01966</a>               PCCB, pccB; propionyl-CoA carboxylase beta subunit [EC:6.4.1.3 2.1.3.15] 
+<a href="/entry/K02437">K02437</a>               gcvH, GCSH; glycine cleavage system H protein 
+<a href="/entry/K03418">K03418</a>               dmfA2; N,N-dimethylformamidase large subunit [EC:3.5.1.56] 
+<a href="/entry/K03779">K03779</a>               ttdA; L(+)-tartrate dehydratase alpha subunit [EC:4.2.1.32] 
+<a href="/entry/K03780">K03780</a>               ttdB; L(+)-tartrate dehydratase beta subunit [EC:4.2.1.32] 
+<a href="/entry/K03781">K03781</a>               katE, CAT, catB, srpA; catalase [EC:1.11.1.6] 
+<a href="/entry/K04835">K04835</a>               mal; methylaspartate ammonia-lyase [EC:4.3.1.2] 
+<a href="/entry/K05606">K05606</a>               MCEE, epi; methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] 
+<a href="/entry/K07130">K07130</a>               kynB; arylformamidase [EC:3.5.1.9] 
+<a href="/entry/K07246">K07246</a>               ttuC, dmlA; tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1. 
+<a href="/entry/K07248">K07248</a>               aldA; lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21] 
+<a href="/entry/K07749">K07749</a>               frc; formyl-CoA transferase [EC:2.8.3.16] 
+<a href="/entry/K08691">K08691</a>               mcl; malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25] 
+<a href="/entry/K08692">K08692</a>               mtkB; malate-CoA ligase subunit alpha [EC:6.2.1.9] 
+<a href="/entry/K11263">K11263</a>               bccA, pccA, accA3; acetyl-CoA/propionyl-CoA/long-chain acyl-CoA carboxylase, biotin carboxylase, bio 
+<a href="/entry/K11472">K11472</a>               glcE; glycolate dehydrogenase FAD-binding subunit [EC:1.1.99.14] 
+<a href="/entry/K11473">K11473</a>               glcF; glycolate dehydrogenase iron-sulfur subunit [EC:1.1.99.14] 
+<a href="/entry/K11517">K11517</a>               HAO; (S)-2-hydroxy-acid oxidase [EC:1.1.3.15] 
+<a href="/entry/K11529">K11529</a>               gck, gckA, GLYCTK; glycerate 2-kinase [EC:2.7.1.165] 
+<a href="/entry/K12972">K12972</a>               ghrA; glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81] 
+<a href="/entry/K14067">K14067</a>               mtkA; malate-CoA ligase subunit beta [EC:6.2.1.9] 
+<a href="/entry/K14263">K14263</a>               BNA7; kynurenine formamidase [EC:3.5.1.9] 
+<a href="/entry/K14272">K14272</a>               GGAT; glutamate--glyoxylate aminotransferase [EC:2.6.1.4 2.6.1.2 2.6.1.44] 
+<a href="/entry/K14446">K14446</a>               ccr; crotonyl-CoA carboxylase/reductase [EC:1.3.1.85] 
+<a href="/entry/K14447">K14447</a>               ecm; ethylmalonyl-CoA mutase [EC:5.4.99.63] 
+<a href="/entry/K14448">K14448</a>               mcd; (2S)-methylsuccinyl-CoA dehydrogenase [EC:1.3.8.12] 
+<a href="/entry/K14449">K14449</a>               mch, mcd; 2-methylfumaryl-CoA hydratase [EC:4.2.1.148] 
+<a href="/entry/K14451">K14451</a>               mcl2; (3S)-malyl-CoA thioesterase [EC:3.1.2.30] 
+<a href="/entry/K15036">K15036</a>               K15036; acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3 2.1.3.15] 
+<a href="/entry/K15037">K15037</a>               K15037; biotin carboxyl carrier protein 
+<a href="/entry/K15893">K15893</a>               HPR1; glycerate dehydrogenase [EC:1.1.1.29] 
+<a href="/entry/K15918">K15918</a>               GLYK; D-glycerate 3-kinase [EC:2.7.1.31] 
+<a href="/entry/K15919">K15919</a>               HPR2_3; glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81] 
+<a href="/entry/K17865">K17865</a>               croR; 3-hydroxybutyryl-CoA dehydratase [EC:4.2.1.55] 
+<a href="/entry/K18121">K18121</a>               GLYR; glyoxylate/succinic semialdehyde reductase [EC:1.1.1.79 1.1.1.-] 
+<a href="/entry/K18123">K18123</a>               HOGA1; 4-hydroxy-2-oxoglutarate aldolase [EC:4.1.3.16] 
+<a href="/entry/K18472">K18472</a>               accD6; acetyl-CoA/propionyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.2 6.4.1.3 2.1.3.1 
+<a href="/entry/K19268">K19268</a>               glmE, mutE, mamB; methylaspartate mutase epsilon subunit [EC:5.4.99.1] 
+<a href="/entry/K19269">K19269</a>               PGP, PGLP; phosphoglycolate phosphatase [EC:3.1.3.18 3.1.3.48] 
+<a href="/entry/K19280">K19280</a>               mct; succinyl-CoA:mesaconate CoA transferase [EC:2.8.3.26] 
+<a href="/entry/K19281">K19281</a>               mcl; beta-methylmalyl-CoA/(S)-malyl-CoA lyase [EC:4.1.3.24] 
+<a href="/entry/K19282">K19282</a>               aceB; bifunctional (S)-malyl-CoA lyase/thioesterase [EC:4.1.3.24 3.1.2.30] 
+<a href="/entry/K19312">K19312</a>               pccB; acetyl-CoA/propionyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.2 6.4.1.3 2.1.3.15 
+<a href="/entry/K22133">K22133</a>               AAE3; oxalate---CoA ligase [EC:6.2.1.8] 
+<a href="/entry/K22223">K22223</a>               pgp; phosphoglycolate phosphatase [EC:3.1.3.18] 
+<a href="/entry/K22515">K22515</a>               fdwB; formate dehydrogenase beta subunit [EC:1.17.1.9] 
+<a href="/entry/K22568">K22568</a>               pccX; acetyl-CoA/propionyl-CoA carboxylase, PccX subunit [EC:6.4.1.2 6.4.1.3] 
+<a href="/entry/K22982">K22982</a>               K22982; hydroxypyruvate reductase [EC:1.1.1.81] 
+<a href="/entry/K25305">K25305</a>               dmfA1; N,N-dimethylformamidase small subunit [EC:3.5.1.56] 
+<a href="/entry/K26209">K26209</a>               K26209; glycolaldehyde reductase [EC:1.1.1.-] 
+<a href="/entry/K26210">K26210</a>               E3.1.3.109; ribulose-1,5-bisphosphate 5-phosphatase [EC:3.1.3.109] 
+<a href="/entry/K27094">K27094</a>               accD5; propionyl-CoA/long-chain acyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.3 6.4.1. 
+<a href="/entry/K27095">K27095</a>               accE5, accE; acyl-CoA carboxylase epsilon subunit 
+<a href="/entry/K27797">K27797</a>               MCSA; 2-methylcitrate synthase [EC:2.3.3.5] 
+<a href="/entry/K27802">K27802</a>               acnA; aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

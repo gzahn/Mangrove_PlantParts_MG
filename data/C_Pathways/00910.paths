@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00910    </title>
+    <link href="/css/gn2.css?1731859716" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859716"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00910<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 69 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00260">K00260</a>               gudB, rocG; glutamate dehydrogenase [EC:1.4.1.2] 
+<a href="/entry/K00261">K00261</a>               GLUD1_2, gdhA; glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3] 
+<a href="/entry/K00262">K00262</a>               E1.4.1.4, gdhA; glutamate dehydrogenase (NADP+) [EC:1.4.1.4] 
+<a href="/entry/K00264">K00264</a>               GLT1; glutamate synthase (NADH) [EC:1.4.1.14] 
+<a href="/entry/K00265">K00265</a>               gltB; glutamate synthase (NADPH) large chain [EC:1.4.1.13] 
+<a href="/entry/K00266">K00266</a>               gltD; glutamate synthase (NADPH) small chain [EC:1.4.1.13] 
+<a href="/entry/K00284">K00284</a>               GLU, gltS; glutamate synthase (ferredoxin) [EC:1.4.7.1] 
+<a href="/entry/K00360">K00360</a>               nasB; assimilatory nitrate reductase electron transfer subunit [EC:1.7.99.-] 
+<a href="/entry/K00361">K00361</a>               nasB; nitrite reductase [NAD(P)H] [EC:1.7.1.4] 
+<a href="/entry/K00362">K00362</a>               nirB; nitrite reductase (NADH) large subunit [EC:1.7.1.15] 
+<a href="/entry/K00363">K00363</a>               nirD; nitrite reductase (NADH) small subunit [EC:1.7.1.15] 
+<a href="/entry/K00366">K00366</a>               nirA; ferredoxin-nitrite reductase [EC:1.7.7.1] 
+<a href="/entry/K00367">K00367</a>               narB; ferredoxin-nitrate reductase [EC:1.7.7.2] 
+<a href="/entry/K00368">K00368</a>               nirK; nitrite reductase (NO-forming) [EC:1.7.2.1] 
+<a href="/entry/K00370">K00370</a>               narG, narZ, nxrA; nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-] 
+<a href="/entry/K00371">K00371</a>               narH, narY, nxrB; nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-] 
+<a href="/entry/K00372">K00372</a>               nasC, nasA; assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-] 
+<a href="/entry/K00374">K00374</a>               narI, narV; nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-] 
+<a href="/entry/K00376">K00376</a>               nosZ; nitrous-oxide reductase [EC:1.7.2.4] 
+<a href="/entry/K00459">K00459</a>               ncd2, npd; nitronate monooxygenase [EC:1.13.12.16] 
+<a href="/entry/K00531">K00531</a>               anfG; nitrogenase delta subunit [EC:1.18.6.1] 
+<a href="/entry/K00926">K00926</a>               arcC; carbamate kinase [EC:2.7.2.2] 
+<a href="/entry/K01455">K01455</a>               E3.5.1.49; formamidase [EC:3.5.1.49] 
+<a href="/entry/K01501">K01501</a>               E3.5.5.1; nitrilase [EC:3.5.5.1] 
+<a href="/entry/K01672">K01672</a>               CA; carbonic anhydrase [EC:4.2.1.1] 
+<a href="/entry/K01673">K01673</a>               cynT, can; carbonic anhydrase [EC:4.2.1.1] 
+<a href="/entry/K01674">K01674</a>               cah; carbonic anhydrase [EC:4.2.1.1] 
+<a href="/entry/K01725">K01725</a>               cynS; cyanate lyase [EC:4.2.1.104] 
+<a href="/entry/K01743">K01743</a>               E4.2.1.1; carbonic anhydrase [EC:4.2.1.1] 
+<a href="/entry/K01915">K01915</a>               glnA, GLUL; glutamine synthetase [EC:6.3.1.2] 
+<a href="/entry/K01948">K01948</a>               CPS1; carbamoyl-phosphate synthase (ammonia) [EC:6.3.4.16] 
+<a href="/entry/K02305">K02305</a>               norC; nitric oxide reductase subunit C 
+<a href="/entry/K02567">K02567</a>               napA; nitrate reductase (cytochrome) [EC:1.9.6.1] 
+<a href="/entry/K02568">K02568</a>               napB; nitrate reductase (cytochrome), electron transfer subunit 
+<a href="/entry/K02575">K02575</a>               NRT2, narK, nrtP, nasA; MFS transporter, NNP family, nitrate/nitrite transporter 
+<a href="/entry/K02586">K02586</a>               nifD; nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1] 
+<a href="/entry/K02588">K02588</a>               nifH; nitrogenase iron protein NifH 
+<a href="/entry/K02591">K02591</a>               nifK; nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] 
+<a href="/entry/K03385">K03385</a>               nrfA; nitrite reductase (cytochrome c-552) [EC:1.7.2.2] 
+<a href="/entry/K04561">K04561</a>               norB; nitric oxide reductase subunit B [EC:1.7.2.5] 
+<a href="/entry/K05601">K05601</a>               hcp; hydroxylamine reductase [EC:1.7.99.1] 
+<a href="/entry/K10534">K10534</a>               NR; nitrate reductase (NAD(P)H) [EC:1.7.1.1 1.7.1.2 1.7.1.3] 
+<a href="/entry/K10535">K10535</a>               hao; hydroxylamine dehydrogenase [EC:1.7.2.6] 
+<a href="/entry/K10944">K10944</a>               pmoA-amoA; methane/ammonia monooxygenase subunit A [EC:1.14.18.3 1.14.99.39] 
+<a href="/entry/K10945">K10945</a>               pmoB-amoB; methane/ammonia monooxygenase subunit B 
+<a href="/entry/K10946">K10946</a>               pmoC-amoC; methane/ammonia monooxygenase subunit C 
+<a href="/entry/K15371">K15371</a>               GDH2; glutamate dehydrogenase [EC:1.4.1.2] 
+<a href="/entry/K15576">K15576</a>               nrtA, nasF, cynA; nitrate/nitrite transport system substrate-binding protein 
+<a href="/entry/K15577">K15577</a>               nrtB, nasE, cynB; nitrate/nitrite transport system permease protein 
+<a href="/entry/K15578">K15578</a>               nrtC, nasD; nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4] 
+<a href="/entry/K15579">K15579</a>               nrtD, cynD; nitrate/nitrite transport system ATP-binding protein 
+<a href="/entry/K15864">K15864</a>               nirS; nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1] 
+<a href="/entry/K15876">K15876</a>               nrfH; cytochrome c nitrite reductase small subunit 
+<a href="/entry/K15877">K15877</a>               CYP55; fungal nitric oxide reductase [EC:1.7.1.14] 
+<a href="/entry/K17877">K17877</a>               NIT-6; nitrite reductase (NAD(P)H) [EC:1.7.1.4] 
+<a href="/entry/K18245">K18245</a>               CA2; carbonic anhydrase 2 [EC:4.2.1.1] 
+<a href="/entry/K18246">K18246</a>               CA4; carbonic anhydrase 4 [EC:4.2.1.1] 
+<a href="/entry/K19823">K19823</a>               NAO; nitroalkane oxidase [EC:1.7.3.1] 
+<a href="/entry/K20932">K20932</a>               K20932; hydrazine synthase subunit [EC:1.7.2.7] 
+<a href="/entry/K20933">K20933</a>               K20933; hydrazine synthase subunit [EC:1.7.2.7] 
+<a href="/entry/K20934">K20934</a>               K20934; hydrazine synthase subunit [EC:1.7.2.7] 
+<a href="/entry/K20935">K20935</a>               hdh; hydrazine dehydrogenase [EC:1.7.2.8] 
+<a href="/entry/K22896">K22896</a>               vnfD; vanadium-dependent nitrogenase alpha chain [EC:1.18.6.2] 
+<a href="/entry/K22897">K22897</a>               vnfK; vanadium-dependent nitrogenase beta chain [EC:1.18.6.2] 
+<a href="/entry/K22898">K22898</a>               vnfG; vanadium nitrogenase delta subunit [EC:1.18.6.2] 
+<a href="/entry/K22899">K22899</a>               vnfH; vanadium nitrogenase iron protein 
+<a href="/entry/K26138">K26138</a>               nasE; nitrite reductase [NAD(P)H] small subunit [EC:1.7.1.4] 
+<a href="/entry/K26139">K26139</a>               nasD, nasB; nitrite reductase [NAD(P)H] large subunit [EC:1.7.1.4] 
+<a href="/entry/K27148">K27148</a>               nod; nitric oxide dismutase 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

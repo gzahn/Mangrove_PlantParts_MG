@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00500    </title>
+    <link href="/css/gn2.css?1731859726" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859726"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00500<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 106 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00688">K00688</a>               PYG, glgP; glycogen phosphorylase [EC:2.4.1.1] 
+<a href="/entry/K00689">K00689</a>               E2.4.1.5; dextransucrase [EC:2.4.1.5] 
+<a href="/entry/K00690">K00690</a>               E2.4.1.7; sucrose phosphorylase [EC:2.4.1.7] 
+<a href="/entry/K00691">K00691</a>               mapA; maltose phosphorylase [EC:2.4.1.8] 
+<a href="/entry/K00692">K00692</a>               sacB; levansucrase [EC:2.4.1.10] 
+<a href="/entry/K00693">K00693</a>               GYS; glycogen synthase [EC:2.4.1.11] 
+<a href="/entry/K00694">K00694</a>               bcsA; cellulose synthase (UDP-forming) [EC:2.4.1.12] 
+<a href="/entry/K00695">K00695</a>               SUS; sucrose synthase [EC:2.4.1.13] 
+<a href="/entry/K00696">K00696</a>               E2.4.1.14; sucrose-phosphate synthase [EC:2.4.1.14] 
+<a href="/entry/K00697">K00697</a>               otsA; trehalose 6-phosphate synthase [EC:2.4.1.15 2.4.1.347] 
+<a href="/entry/K00700">K00700</a>               GBE1, glgB; 1,4-alpha-glucan branching enzyme [EC:2.4.1.18] 
+<a href="/entry/K00701">K00701</a>               cgt; cyclomaltodextrin glucanotransferase [EC:2.4.1.19] 
+<a href="/entry/K00702">K00702</a>               E2.4.1.20; cellobiose phosphorylase [EC:2.4.1.20] 
+<a href="/entry/K00703">K00703</a>               glgA; starch synthase [EC:2.4.1.21] 
+<a href="/entry/K00705">K00705</a>               malQ; 4-alpha-glucanotransferase [EC:2.4.1.25] 
+<a href="/entry/K00706">K00706</a>               E2.4.1.34; 1,3-beta-glucan synthase [EC:2.4.1.34] 
+<a href="/entry/K00750">K00750</a>               GYG1, GYG2; glycogenin [EC:2.4.1.186] 
+<a href="/entry/K00844">K00844</a>               HK; hexokinase [EC:2.7.1.1] 
+<a href="/entry/K00845">K00845</a>               glk; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K00847">K00847</a>               E2.7.1.4, scrK; fructokinase [EC:2.7.1.4] 
+<a href="/entry/K00963">K00963</a>               UGP2, galU, galF; UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9] 
+<a href="/entry/K00975">K00975</a>               glgC; glucose-1-phosphate adenylyltransferase [EC:2.7.7.27] 
+<a href="/entry/K00978">K00978</a>               rfbF; glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33] 
+<a href="/entry/K01084">K01084</a>               G6PC; glucose-6-phosphatase [EC:3.1.3.9] 
+<a href="/entry/K01087">K01087</a>               otsB; trehalose 6-phosphate phosphatase [EC:3.1.3.12] 
+<a href="/entry/K01176">K01176</a>               AMY, amyA, malS; alpha-amylase [EC:3.2.1.1] 
+<a href="/entry/K01177">K01177</a>               E3.2.1.2; beta-amylase [EC:3.2.1.2] 
+<a href="/entry/K01178">K01178</a>               SGA1; glucoamylase [EC:3.2.1.3] 
+<a href="/entry/K01179">K01179</a>               E3.2.1.4; endoglucanase [EC:3.2.1.4] 
+<a href="/entry/K01182">K01182</a>               IMA, malL; oligo-1,6-glucosidase [EC:3.2.1.10] 
+<a href="/entry/K01187">K01187</a>               malZ; alpha-glucosidase [EC:3.2.1.20] 
+<a href="/entry/K01188">K01188</a>               E3.2.1.21; beta-glucosidase [EC:3.2.1.21] 
+<a href="/entry/K01193">K01193</a>               INV, sacA; beta-fructofuranosidase [EC:3.2.1.26] 
+<a href="/entry/K01194">K01194</a>               TREH, treA, treF; alpha,alpha-trehalase [EC:3.2.1.28] 
+<a href="/entry/K01196">K01196</a>               AGL; glycogen debranching enzyme [EC:2.4.1.25 3.2.1.33] 
+<a href="/entry/K01199">K01199</a>               EGLC; glucan endo-1,3-beta-D-glucosidase [EC:3.2.1.39] 
+<a href="/entry/K01200">K01200</a>               pulA; pullulanase [EC:3.2.1.41] 
+<a href="/entry/K01203">K01203</a>               SI; sucrase-isomaltase [EC:3.2.1.48 3.2.1.10] 
+<a href="/entry/K01208">K01208</a>               cd, ma, nplT; cyclomaltodextrinase / maltogenic alpha-amylase / neopullulanase [EC:3.2.1.54 3.2.1.13 
+<a href="/entry/K01210">K01210</a>               E3.2.1.58; glucan 1,3-beta-glucosidase [EC:3.2.1.58] 
+<a href="/entry/K01212">K01212</a>               sacC, levB; levanase [EC:3.2.1.65] 
+<a href="/entry/K01214">K01214</a>               ISA, treX; isoamylase [EC:3.2.1.68] 
+<a href="/entry/K01222">K01222</a>               E3.2.1.86A, celF; 6-phospho-beta-glucosidase [EC:3.2.1.86] 
+<a href="/entry/K01223">K01223</a>               E3.2.1.86B, bglA; 6-phospho-beta-glucosidase [EC:3.2.1.86] 
+<a href="/entry/K01225">K01225</a>               CBH1; cellulose 1,4-beta-cellobiosidase [EC:3.2.1.91] 
+<a href="/entry/K01226">K01226</a>               treC; trehalose-6-phosphate hydrolase [EC:3.2.1.93] 
+<a href="/entry/K01232">K01232</a>               glvA; maltose-6&#39;-phosphate glucosidase [EC:3.2.1.122] 
+<a href="/entry/K01236">K01236</a>               treZ, glgZ; maltooligosyltrehalose trehalohydrolase [EC:3.2.1.141] 
+<a href="/entry/K01513">K01513</a>               ENPP1_3, CD203; ectonucleotide pyrophosphatase/phosphodiesterase family member 1/3 [EC:3.1.4.1 3.6.1 
+<a href="/entry/K01810">K01810</a>               GPI, pgi; glucose-6-phosphate isomerase [EC:5.3.1.9] 
+<a href="/entry/K01835">K01835</a>               pgm; phosphoglucomutase [EC:5.4.2.2] 
+<a href="/entry/K01838">K01838</a>               pgmB; beta-phosphoglucomutase [EC:5.4.2.6] 
+<a href="/entry/K02438">K02438</a>               glgX; glycogen debranching enzyme [EC:3.2.1.196] 
+<a href="/entry/K02750">K02750</a>               glvC, malP, aglA; alpha-glucoside PTS system EIICB component [EC:2.7.1.208 2.7.1.-] 
+<a href="/entry/K02759">K02759</a>               celC, chbA; cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205] 
+<a href="/entry/K02760">K02760</a>               celA, chbB; cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205] 
+<a href="/entry/K02761">K02761</a>               celB, chbC; cellobiose PTS system EIIC component 
+<a href="/entry/K02777">K02777</a>               crr; sugar PTS system EIIA component [EC:2.7.1.-] 
+<a href="/entry/K02791">K02791</a>               malX; maltose/glucose PTS system EIICB component [EC:2.7.1.199 2.7.1.208] 
+<a href="/entry/K02810">K02810</a>               scrA, sacP, sacX, ptsS; sucrose PTS system EIIBCA or EIIBC component [EC:2.7.1.211] 
+<a href="/entry/K02819">K02819</a>               treB, treP; trehalose PTS system EIIBC or EIIBCA component [EC:2.7.1.201] 
+<a href="/entry/K05341">K05341</a>               E2.4.1.4; amylosucrase [EC:2.4.1.4] 
+<a href="/entry/K05342">K05342</a>               treP; alpha,alpha-trehalose phosphorylase [EC:2.4.1.64] 
+<a href="/entry/K05343">K05343</a>               treS; maltose alpha-D-glucosyltransferase / alpha-amylase [EC:5.4.99.16 3.2.1.1] 
+<a href="/entry/K05349">K05349</a>               bglX; beta-glucosidase [EC:3.2.1.21] 
+<a href="/entry/K05350">K05350</a>               bglB; beta-glucosidase [EC:3.2.1.21] 
+<a href="/entry/K05988">K05988</a>               dexA; dextranase [EC:3.2.1.11] 
+<a href="/entry/K05992">K05992</a>               amyM; maltogenic alpha-amylase [EC:3.2.1.133] 
+<a href="/entry/K06044">K06044</a>               treY, glgY; (1-&gt;4)-alpha-D-glucan 1-alpha-D-glucosylmutase [EC:5.4.99.15] 
+<a href="/entry/K06859">K06859</a>               pgi1; glucose-6-phosphate isomerase, archaeal [EC:5.3.1.9] 
+<a href="/entry/K06896">K06896</a>               mapP; maltose 6&#39;-phosphate phosphatase [EC:3.1.3.90] 
+<a href="/entry/K07024">K07024</a>               SPP; sucrose-6-phosphatase [EC:3.1.3.24] 
+<a href="/entry/K07405">K07405</a>               E3.2.1.1A; alpha-amylase [EC:3.2.1.1] 
+<a href="/entry/K11809">K11809</a>               PGM2L1; glucose-1,6-bisphosphate synthase [EC:2.7.1.106] 
+<a href="/entry/K12047">K12047</a>               MGAM; maltase-glucoamylase [EC:3.2.1.20 3.2.1.3] 
+<a href="/entry/K12316">K12316</a>               GAA; lysosomal alpha-glucosidase [EC:3.2.1.20] 
+<a href="/entry/K12317">K12317</a>               GANC; neutral alpha-glucosidase C [EC:3.2.1.20] 
+<a href="/entry/K12407">K12407</a>               GCK; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K13057">K13057</a>               treT; trehalose synthase [EC:2.4.1.245] 
+<a href="/entry/K13679">K13679</a>               WAXY; granule-bound starch synthase [EC:2.4.1.242] 
+<a href="/entry/K13810">K13810</a>               tal-pgi; transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9] 
+<a href="/entry/K15778">K15778</a>               pmm-pgm; phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2] 
+<a href="/entry/K15779">K15779</a>               PGM2; phosphoglucomutase / phosphopentomutase [EC:5.4.2.2 5.4.2.7] 
+<a href="/entry/K15916">K15916</a>               pgi-pmi; glucose/mannose-6-phosphate isomerase [EC:5.3.1.9 5.3.1.8] 
+<a href="/entry/K16055">K16055</a>               TPS; trehalose 6-phosphate synthase/phosphatase [EC:2.4.1.15 3.1.3.12] 
+<a href="/entry/K16146">K16146</a>               pep2; maltokinase [EC:2.7.1.175] 
+<a href="/entry/K16147">K16147</a>               glgE; starch synthase (maltosyl-transferring) [EC:2.4.99.16] 
+<a href="/entry/K16148">K16148</a>               glgM; alpha-maltose-1-phosphate synthase [EC:2.4.1.342] 
+<a href="/entry/K16149">K16149</a>               K16149; 1,4-alpha-glucan branching enzyme [EC:2.4.1.18] 
+<a href="/entry/K16150">K16150</a>               K16150; glycogen synthase [EC:2.4.1.11] 
+<a href="/entry/K16153">K16153</a>               K16153; glycogen phosphorylase/synthase [EC:2.4.1.1 2.4.1.11] 
+<a href="/entry/K18447">K18447</a>               NUDX14; ADP-sugar diphosphatase [EC:3.6.1.21] 
+<a href="/entry/K18775">K18775</a>               lf2; levanbiose-producing levanase [EC:3.2.1.64] 
+<a href="/entry/K19357">K19357</a>               CELB; cellulase [EC:3.2.1.4] 
+<a href="/entry/K19668">K19668</a>               CBH2, cbhA; cellulose 1,4-beta-cellobiosidase [EC:3.2.1.91] 
+<a href="/entry/K19891">K19891</a>               GN1_2_3; glucan endo-1,3-beta-glucosidase 1/2/3 [EC:3.2.1.39] 
+<a href="/entry/K19892">K19892</a>               GN4; glucan endo-1,3-beta-glucosidase 4 [EC:3.2.1.39] 
+<a href="/entry/K19893">K19893</a>               GN5_6; glucan endo-1,3-beta-glucosidase 5/6 [EC:3.2.1.39] 
+<a href="/entry/K20108">K20108</a>               malT; maltose PTS system EIICB or EIICBA component [EC:2.7.1.208] 
+<a href="/entry/K20811">K20811</a>               inuJ; inulosucrase [EC:2.4.1.9] 
+<a href="/entry/K20812">K20812</a>               glgA; glycogen synthase [EC:2.4.1.242] 
+<a href="/entry/K21574">K21574</a>               susB; glucan 1,4-alpha-glucosidase [EC:3.2.1.3] 
+<a href="/entry/K22337">K22337</a>               TSL1, TPS3; trehalose 6-phosphate synthase complex regulatory subunit 
+<a href="/entry/K22451">K22451</a>               jgt; 4-alpha-glucanotransferase [EC:2.4.1.25] 
+<a href="/entry/K22934">K22934</a>               E3.2.1.28; alpha,alpha-trehalase [EC:3.2.1.28] 
+<a href="/entry/K25026">K25026</a>               glk; glucokinase [EC:2.7.1.2] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

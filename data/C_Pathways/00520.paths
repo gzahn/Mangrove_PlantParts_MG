@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00520    </title>
+    <link href="/css/gn2.css?1731859724" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859724"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00520<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 157 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00012">K00012</a>               UGDH, ugd; UDPglucose 6-dehydrogenase [EC:1.1.1.22] 
+<a href="/entry/K00066">K00066</a>               algD; GDP-mannose 6-dehydrogenase [EC:1.1.1.132] 
+<a href="/entry/K00075">K00075</a>               murB; UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98] 
+<a href="/entry/K00326">K00326</a>               CYB5R; cytochrome-b5 reductase [EC:1.6.2.2] 
+<a href="/entry/K00523">K00523</a>               ascD, ddhD, rfbI; CDP-4-dehydro-6-deoxyglucose reductase, E3 [EC:1.17.1.1] 
+<a href="/entry/K00621">K00621</a>               GNPNAT1, GNA1; glucosamine-phosphate N-acetyltransferase [EC:2.3.1.4] 
+<a href="/entry/K00698">K00698</a>               CHS1; chitin synthase [EC:2.4.1.16] 
+<a href="/entry/K00770">K00770</a>               E2.4.2.24; 1,4-beta-D-xylan synthase [EC:2.4.2.24] 
+<a href="/entry/K00790">K00790</a>               murA; UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7] 
+<a href="/entry/K00820">K00820</a>               glmS, GFPT; glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16] 
+<a href="/entry/K00844">K00844</a>               HK; hexokinase [EC:2.7.1.1] 
+<a href="/entry/K00845">K00845</a>               glk; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K00847">K00847</a>               E2.7.1.4, scrK; fructokinase [EC:2.7.1.4] 
+<a href="/entry/K00849">K00849</a>               galK; galactokinase [EC:2.7.1.6] 
+<a href="/entry/K00884">K00884</a>               NAGK, nagK; N-acetylglucosamine kinase [EC:2.7.1.59] 
+<a href="/entry/K00885">K00885</a>               nanK; N-acylmannosamine kinase [EC:2.7.1.60] 
+<a href="/entry/K00886">K00886</a>               ppgK; polyphosphate glucokinase [EC:2.7.1.63] 
+<a href="/entry/K00963">K00963</a>               UGP2, galU, galF; UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9] 
+<a href="/entry/K00965">K00965</a>               galT, GALT; UDPglucose--hexose-1-phosphate uridylyltransferase [EC:2.7.7.12] 
+<a href="/entry/K00966">K00966</a>               GMPP; mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] 
+<a href="/entry/K00971">K00971</a>               manC, cpsB; mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] 
+<a href="/entry/K00972">K00972</a>               UAP1; UDP-N-acetylglucosamine/UDP-N-acetylgalactosamine diphosphorylase [EC:2.7.7.23 2.7.7.83] 
+<a href="/entry/K00975">K00975</a>               glgC; glucose-1-phosphate adenylyltransferase [EC:2.7.7.27] 
+<a href="/entry/K00976">K00976</a>               FPGT; fucose-1-phosphate guanylyltransferase [EC:2.7.7.30] 
+<a href="/entry/K00978">K00978</a>               rfbF; glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33] 
+<a href="/entry/K00983">K00983</a>               neuA, nnaC; N-acylneuraminate cytidylyltransferase [EC:2.7.7.43] 
+<a href="/entry/K00992">K00992</a>               murU; N-acetyl-alpha-D-muramate 1-phosphate uridylyltransferase [EC:2.7.7.99] 
+<a href="/entry/K01097">K01097</a>               NANP; N-acylneuraminate-9-phosphatase [EC:3.1.3.29] 
+<a href="/entry/K01183">K01183</a>               E3.2.1.14; chitinase [EC:3.2.1.14] 
+<a href="/entry/K01198">K01198</a>               xynB; xylan 1,4-beta-xylosidase [EC:3.2.1.37] 
+<a href="/entry/K01207">K01207</a>               nagZ; beta-N-acetylhexosaminidase [EC:3.2.1.52] 
+<a href="/entry/K01209">K01209</a>               abfA; alpha-L-arabinofuranosidase [EC:3.2.1.55] 
+<a href="/entry/K01233">K01233</a>               csn; chitosanase [EC:3.2.1.132] 
+<a href="/entry/K01443">K01443</a>               nagA, AMDHD2; N-acetylglucosamine-6-phosphate deacetylase [EC:3.5.1.25] 
+<a href="/entry/K01452">K01452</a>               E3.5.1.41; chitin deacetylase [EC:3.5.1.41] 
+<a href="/entry/K01639">K01639</a>               E4.1.3.3, nanA, NPL; N-acetylneuraminate lyase [EC:4.1.3.3] 
+<a href="/entry/K01654">K01654</a>               neuB, nnaB; N-acetylneuraminate synthase [EC:2.5.1.56] 
+<a href="/entry/K01709">K01709</a>               rfbG; CDP-glucose 4,6-dehydratase [EC:4.2.1.45] 
+<a href="/entry/K01711">K01711</a>               gmd, GMDS; GDPmannose 4,6-dehydratase [EC:4.2.1.47] 
+<a href="/entry/K01784">K01784</a>               galE, GALE; UDP-glucose 4-epimerase [EC:5.1.3.2] 
+<a href="/entry/K01787">K01787</a>               RENBP; N-acylglucosamine 2-epimerase [EC:5.1.3.8] 
+<a href="/entry/K01788">K01788</a>               nanE; N-acylglucosamine-6-phosphate 2-epimerase [EC:5.1.3.9] 
+<a href="/entry/K01791">K01791</a>               wecB; UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing) [EC:5.1.3.14] 
+<a href="/entry/K01809">K01809</a>               manA, MPI; mannose-6-phosphate isomerase [EC:5.3.1.8] 
+<a href="/entry/K01810">K01810</a>               GPI, pgi; glucose-6-phosphate isomerase [EC:5.3.1.9] 
+<a href="/entry/K01835">K01835</a>               pgm; phosphoglucomutase [EC:5.4.2.2] 
+<a href="/entry/K01836">K01836</a>               PGM3; phosphoacetylglucosamine mutase [EC:5.4.2.3] 
+<a href="/entry/K01840">K01840</a>               manB; phosphomannomutase [EC:5.4.2.8] 
+<a href="/entry/K01854">K01854</a>               glf; UDP-galactopyranose mutase [EC:5.4.99.9] 
+<a href="/entry/K02377">K02377</a>               TSTA3, fcl; GDP-L-fucose synthase [EC:1.1.1.271] 
+<a href="/entry/K02472">K02472</a>               wecC; UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase [EC:1.1.1.336] 
+<a href="/entry/K02473">K02473</a>               wbpP; UDP-N-acetylglucosamine/UDP-N-acetyl-alpha-D-glucosaminouronate 4-epimerase [EC:5.1.3.7 5.1.3. 
+<a href="/entry/K02474">K02474</a>               wbpO; UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-] 
+<a href="/entry/K02564">K02564</a>               nagB, GNPDA; glucosamine-6-phosphate deaminase [EC:3.5.99.6] 
+<a href="/entry/K02765">K02765</a>               gamP; D-glucosamine PTS system EIICBA component [EC:2.7.1.-] 
+<a href="/entry/K02777">K02777</a>               crr; sugar PTS system EIIA component [EC:2.7.1.-] 
+<a href="/entry/K02779">K02779</a>               ptsG; glucose PTS system EIICB or EIICBA component [EC:2.7.1.199] 
+<a href="/entry/K02791">K02791</a>               malX; maltose/glucose PTS system EIICB component [EC:2.7.1.199 2.7.1.208] 
+<a href="/entry/K02793">K02793</a>               manXa; mannose PTS system EIIA component [EC:2.7.1.191] 
+<a href="/entry/K02794">K02794</a>               manX; mannose PTS system EIIAB component [EC:2.7.1.191] 
+<a href="/entry/K02795">K02795</a>               manY; mannose PTS system EIIC component 
+<a href="/entry/K02796">K02796</a>               manZ; mannose PTS system EIID component 
+<a href="/entry/K02804">K02804</a>               nagE; N-acetylglucosamine PTS system EIICBA or EIICB component [EC:2.7.1.193] 
+<a href="/entry/K03431">K03431</a>               glmM; phosphoglucosamine mutase [EC:5.4.2.10] 
+<a href="/entry/K04042">K04042</a>               glmU; bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltrans 
+<a href="/entry/K05304">K05304</a>               NANS, SAS; sialic acid synthase [EC:2.5.1.56 2.5.1.57 2.5.1.132] 
+<a href="/entry/K05305">K05305</a>               FUK; fucokinase [EC:2.7.1.52] 
+<a href="/entry/K06118">K06118</a>               SQD1, sqdB; UDP-sulfoquinovose synthase [EC:3.13.1.1] 
+<a href="/entry/K06859">K06859</a>               pgi1; glucose-6-phosphate isomerase, archaeal [EC:5.3.1.9] 
+<a href="/entry/K07102">K07102</a>               amgK; N-acetylmuramate 1-kinase [EC:2.7.1.221] 
+<a href="/entry/K07106">K07106</a>               murQ; N-acetylmuramic acid 6-phosphate etherase [EC:4.2.1.126] 
+<a href="/entry/K07806">K07806</a>               arnB, pmrH; UDP-4-amino-4-deoxy-L-arabinose-oxoglutarate aminotransferase [EC:2.6.1.87] 
+<a href="/entry/K08068">K08068</a>               siaA, neuC1; UDP-N-acetylglucosamine 2-epimerase (hydrolysing) [EC:3.2.1.183] 
+<a href="/entry/K08080">K08080</a>               CMAH; CMP-N-acetylneuraminate monooxygenase [EC:1.14.18.2] 
+<a href="/entry/K08678">K08678</a>               UXS1, uxs; UDP-glucuronate decarboxylase [EC:4.1.1.35] 
+<a href="/entry/K08679">K08679</a>               GAE, cap1J; UDP-glucuronate 4-epimerase [EC:5.1.3.6] 
+<a href="/entry/K09001">K09001</a>               anmK; anhydro-N-acetylmuramic acid kinase [EC:2.7.1.170] 
+<a href="/entry/K10011">K10011</a>               arnA, pmrI; UDP-4-amino-4-deoxy-L-arabinose formyltransferase / UDP-glucuronic acid dehydrogenase (U 
+<a href="/entry/K10012">K10012</a>               arnC, pmrF; undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase [EC:2.4.2.53] 
+<a href="/entry/K10046">K10046</a>               GME; GDP-D-mannose 3&#39;, 5&#39;-epimerase [EC:5.1.3.18 5.1.3.-] 
+<a href="/entry/K11192">K11192</a>               murP; N-acetylmuramic acid PTS system EIICB component [EC:2.7.1.192] 
+<a href="/entry/K11528">K11528</a>               glmU; UDP-N-acetylglucosamine pyrophosphorylase [EC:2.7.7.23] 
+<a href="/entry/K12373">K12373</a>               HEXA_B; hexosaminidase [EC:3.2.1.52] 
+<a href="/entry/K12407">K12407</a>               GCK; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K12409">K12409</a>               GNE; bifunctional UDP-N-acetylglucosamine 2-epimerase / N-acetylmannosamine kinase [EC:3.2.1.183 2.7 
+<a href="/entry/K12446">K12446</a>               E2.7.1.46; L-arabinokinase [EC:2.7.1.46] 
+<a href="/entry/K12447">K12447</a>               USP; UDP-sugar pyrophosphorylase [EC:2.7.7.64] 
+<a href="/entry/K12448">K12448</a>               UXE, uxe; UDP-arabinose 4-epimerase [EC:5.1.3.5] 
+<a href="/entry/K12449">K12449</a>               AXS; UDP-apiose/xylose synthase 
+<a href="/entry/K12450">K12450</a>               RHM; UDP-glucose 4,6-dehydratase [EC:4.2.1.76] 
+<a href="/entry/K12451">K12451</a>               UER1; 3,5-epimerase/4-reductase [EC:5.1.3.- 1.1.1.-] 
+<a href="/entry/K12452">K12452</a>               ascC, ddhC, rfbH; CDP-4-dehydro-6-deoxyglucose reductase, E1 [EC:1.17.1.1] 
+<a href="/entry/K12453">K12453</a>               rfbS; CDP-paratose synthetase [EC:1.1.1.342] 
+<a href="/entry/K12454">K12454</a>               rfbE; CDP-paratose 2-epimerase [EC:5.1.3.10] 
+<a href="/entry/K12455">K12455</a>               rfbJ; CDP-abequose synthase [EC:1.1.1.341] 
+<a href="/entry/K13010">K13010</a>               per, rfbE; perosamine synthetase [EC:2.6.1.102] 
+<a href="/entry/K13014">K13014</a>               arnD; undecaprenyl phosphate-alpha-L-ara4FN deformylase [EC:3.5.1.-] 
+<a href="/entry/K13015">K13015</a>               wbpA; UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136] 
+<a href="/entry/K13016">K13016</a>               wbpB; UDP-N-acetyl-2-amino-2-deoxyglucuronate dehydrogenase [EC:1.1.1.335] 
+<a href="/entry/K13017">K13017</a>               wbpE, wlbC; UDP-2-acetamido-2-deoxy-ribo-hexuluronate aminotransferase [EC:2.6.1.98] 
+<a href="/entry/K13018">K13018</a>               wbpD, wlbB; UDP-2-acetamido-3-amino-2,3-dideoxy-glucuronate N-acetyltransferase [EC:2.3.1.201] 
+<a href="/entry/K13019">K13019</a>               wbpI, wlbD; UDP-GlcNAc3NAcA epimerase [EC:5.1.3.23] 
+<a href="/entry/K13020">K13020</a>               wlbA, bplA; UDP-N-acetyl-2-amino-2-deoxyglucuronate dehydrogenase [EC:1.1.1.335] 
+<a href="/entry/K13379">K13379</a>               RGP, UTM; reversibly glycosylated polypeptide / UDP-arabinopyranose mutase [EC:2.4.1.- 5.4.99.30] 
+<a href="/entry/K13381">K13381</a>               chiA; bifunctional chitinase/lysozyme [EC:3.2.1.14 3.2.1.17] 
+<a href="/entry/K13648">K13648</a>               GAUT; alpha-1,4-galacturonosyltransferase [EC:2.4.1.43] 
+<a href="/entry/K13810">K13810</a>               tal-pgi; transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9] 
+<a href="/entry/K13967">K13967</a>               nanEK; N-acetylmannosamine-6-phosphate 2-epimerase / N-acetylmannosamine kinase [EC:5.1.3.9 2.7.1.60 
+<a href="/entry/K15778">K15778</a>               pmm-pgm; phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2] 
+<a href="/entry/K15779">K15779</a>               PGM2; phosphoglucomutase / phosphopentomutase [EC:5.4.2.2 5.4.2.7] 
+<a href="/entry/K15855">K15855</a>               csxA; exo-1,4-beta-D-glucosaminidase [EC:3.2.1.165] 
+<a href="/entry/K15856">K15856</a>               rmd; GDP-4-dehydro-6-deoxy-D-mannose reductase [EC:1.1.1.281] 
+<a href="/entry/K15857">K15857</a>               ascE; CDP-3, 6-dideoxy-D-glycero-D-glycero-4-hexulose-5-epimerase [EC:5.1.-.-] 
+<a href="/entry/K15858">K15858</a>               ascF; CDP-3, 6-dideoxy-D-glycero-L-glycero-4-hexulose-4-reductase [EC:1.1.1.-] 
+<a href="/entry/K15894">K15894</a>               pseB, wbjB; UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-] 
+<a href="/entry/K15895">K15895</a>               pseC; UDP-4-amino-4,6-dideoxy-L-N-acetyl-beta-L-altrosamine transaminase [EC:2.6.1.92] 
+<a href="/entry/K15896">K15896</a>               pseH; UDP-4-amino-4,6-dideoxy-N-acetyl-beta-L-altrosamine N-acetyltransferase [EC:2.3.1.202] 
+<a href="/entry/K15897">K15897</a>               pseG; UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57] 
+<a href="/entry/K15898">K15898</a>               pseI, neuB3; pseudaminic acid synthase [EC:2.5.1.97] 
+<a href="/entry/K15899">K15899</a>               pseF; pseudaminic acid cytidylyltransferase [EC:2.7.7.81] 
+<a href="/entry/K15910">K15910</a>               pglE; UDP-N-acetylbacillosamine transaminase [EC:2.6.1.34] 
+<a href="/entry/K15912">K15912</a>               pglF; UDP-N-acetylglucosamine 4,6-dehydratase [EC:4.2.1.135] 
+<a href="/entry/K15913">K15913</a>               pglD; UDP-N-acetylbacillosamine N-acetyltransferase [EC:2.3.1.203] 
+<a href="/entry/K15916">K15916</a>               pgi-pmi; glucose/mannose-6-phosphate isomerase [EC:5.3.1.9 5.3.1.8] 
+<a href="/entry/K15920">K15920</a>               XYL4; xylan 1,4-beta-xylosidase [EC:3.2.1.37] 
+<a href="/entry/K15921">K15921</a>               xynD; arabinoxylan arabinofuranohydrolase [EC:3.2.1.55] 
+<a href="/entry/K16011">K16011</a>               algA, xanB, rfbA, wbpW, pslB; mannose-1-phosphate guanylyltransferase / mannose-6-phosphate isomeras 
+<a href="/entry/K16190">K16190</a>               GLCAK; glucuronokinase [EC:2.7.1.43] 
+<a href="/entry/K16881">K16881</a>               K16881; mannose-1-phosphate guanylyltransferase / phosphomannomutase [EC:2.7.7.13 5.4.2.8] 
+<a href="/entry/K17497">K17497</a>               PMM; phosphomannomutase [EC:5.4.2.8] 
+<a href="/entry/K17716">K17716</a>               capD; UDP-glucose 4-epimerase [EC:5.1.3.2] 
+<a href="/entry/K17939">K17939</a>               perB, wbdR; GDP-perosamine N-acetyltransferase [EC:2.3.1.227] 
+<a href="/entry/K18429">K18429</a>               legG, neuC2; GDP/UDP-N,N&#39;-diacetylbacillosamine 2-epimerase (hydrolysing) [EC:3.2.1.184] 
+<a href="/entry/K18430">K18430</a>               legI, neuB2; N,N&#39;-diacetyllegionaminate synthase [EC:2.5.1.101] 
+<a href="/entry/K18431">K18431</a>               legF, ptmB; CMP-N,N&#39;-diacetyllegionaminic acid synthase [EC:2.7.7.82] 
+<a href="/entry/K18674">K18674</a>               GALK2; N-acetylgalactosamine kinase [EC:2.7.1.157] 
+<a href="/entry/K18675">K18675</a>               chbP; N,N&#39;-diacetylchitobiose phosphorylase [EC:2.4.1.280] 
+<a href="/entry/K18676">K18676</a>               gspK; glucosamine kinase [EC:2.7.1.8] 
+<a href="/entry/K18677">K18677</a>               GALAK; galacturonokinase [EC:2.7.1.44] 
+<a href="/entry/K19632">K19632</a>               rfbJ; CDP-abequose synthase [EC:1.1.1.341] 
+<a href="/entry/K20118">K20118</a>               ptsG, glcA, glcB; glucose PTS system EIICBA or EIICB component [EC:2.7.1.199] 
+<a href="/entry/K20547">K20547</a>               CHIB; basic endochitinase B [EC:3.2.1.14] 
+<a href="/entry/K20844">K20844</a>               abf1; non-reducing end alpha-L-arabinofuranosidase [EC:3.2.1.55] 
+<a href="/entry/K21055">K21055</a>               E3.1.3.103; 3-deoxy-D-glycero-D-galacto-nononate 9-phosphatase [EC:3.1.3.103] 
+<a href="/entry/K21279">K21279</a>               E2.5.1.132; 3-deoxy-D-glycero-D-galacto-nononate 9-phosphate synthase [EC:2.5.1.132] 
+<a href="/entry/K21749">K21749</a>               CMAS; N-acylneuraminate/3-deoxy-D-glycero-D-galacto-nononate cytidylyltransferase [EC:2.7.7.43 2.7.7 
+<a href="/entry/K21750">K21750</a>               E2.7.7.92; 3-deoxy-D-glycero-D-galacto-nononate cytidylyltransferase [EC:2.7.7.92] 
+<a href="/entry/K22252">K22252</a>               tld; GDP-6-deoxy-D-talose 4-dehydrogenase [EC:1.1.1.135] 
+<a href="/entry/K22268">K22268</a>               xylA; xylan 1,4-beta-xylosidase [EC:3.2.1.37] 
+<a href="/entry/K22292">K22292</a>               mupP; N-acetyl-D-muramate 6-phosphate phosphatase [EC:3.1.3.105] 
+<a href="/entry/K22925">K22925</a>               tviC, vipB; UDP-N-acetyl-alpha-D-glucosaminouronate 4-epimerase [EC:5.1.3.45] 
+<a href="/entry/K22926">K22926</a>               tviB, vipA; UDP-N-acetylglucosamine 6-dehydrogenase [EC:1.1.1.136] 
+<a href="/entry/K23144">K23144</a>               K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N- 
+<a href="/entry/K25026">K25026</a>               glk; glucokinase [EC:2.7.1.2] 
+<a href="/entry/K25314">K25314</a>               FKGP, fkp; fucokinase / fucose-1-phosphate guanylyltransferase [EC:2.7.1.52 2.7.7.30] 
+<a href="/entry/K25315">K25315</a>               AFKP80; arabinokinase / fucokinase / arabinose-1-phosphate guanylyltransferase / fucose-1-phosphate  
+<a href="/entry/K27853">K27853</a>               wcaG; UDP-N-acetyl-alpha-D-glucosaminuronate decarboxylase [EC:4.1.1.128] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00053    </title>
+    <link href="/css/gn2.css?1731859727" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859727"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00053<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 62 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00002">K00002</a>               AKR1A1, adh; alcohol dehydrogenase (NADP+) [EC:1.1.1.2] 
+<a href="/entry/K00012">K00012</a>               UGDH, ugd; UDPglucose 6-dehydrogenase [EC:1.1.1.22] 
+<a href="/entry/K00062">K00062</a>               ARA2; D-arabinose 1-dehydrogenase [EC:1.1.1.116] 
+<a href="/entry/K00063">K00063</a>               ARA1; D-arabinose 1-dehydrogenase [EC:1.1.1.117] 
+<a href="/entry/K00064">K00064</a>               E1.1.1.122; D-threo-aldose 1-dehydrogenase [EC:1.1.1.122] 
+<a href="/entry/K00103">K00103</a>               GULO; L-gulonolactone oxidase [EC:1.1.3.8] 
+<a href="/entry/K00107">K00107</a>               ALO; D-arabinono-1,4-lactone oxidase [EC:1.1.3.37] 
+<a href="/entry/K00128">K00128</a>               ALDH; aldehyde dehydrogenase (NAD+) [EC:1.2.1.3] 
+<a href="/entry/K00149">K00149</a>               ALDH9A1; aldehyde dehydrogenase family 9 member A1 [EC:1.2.1.47 1.2.1.3] 
+<a href="/entry/K00225">K00225</a>               GLDH; L-galactono-1,4-lactone dehydrogenase [EC:1.3.2.3] 
+<a href="/entry/K00423">K00423</a>               E1.10.3.3; L-ascorbate oxidase [EC:1.10.3.3] 
+<a href="/entry/K00434">K00434</a>               E1.11.1.11; L-ascorbate peroxidase [EC:1.11.1.11] 
+<a href="/entry/K00469">K00469</a>               MIOX; inositol oxygenase [EC:1.13.99.1] 
+<a href="/entry/K00699">K00699</a>               UGT; glucuronosyltransferase [EC:2.4.1.17] 
+<a href="/entry/K00880">K00880</a>               lyxK; L-xylulokinase [EC:2.7.1.53] 
+<a href="/entry/K01053">K01053</a>               gnl, RGN; gluconolactonase [EC:3.1.1.17] 
+<a href="/entry/K01195">K01195</a>               uidA, GUSB; beta-glucuronidase [EC:3.2.1.31] 
+<a href="/entry/K01630">K01630</a>               garL; 2-dehydro-3-deoxyglucarate aldolase [EC:4.1.2.20] 
+<a href="/entry/K01683">K01683</a>               araD; D-arabinonate dehydratase [EC:4.2.1.5] 
+<a href="/entry/K01706">K01706</a>               gudD; glucarate dehydratase [EC:4.2.1.40] 
+<a href="/entry/K01707">K01707</a>               kdgD; 5-dehydro-4-deoxyglucarate dehydratase [EC:4.2.1.41] 
+<a href="/entry/K01708">K01708</a>               garD; galactarate dehydratase [EC:4.2.1.42] 
+<a href="/entry/K02821">K02821</a>               ulaC, sgaA; ascorbate PTS system EIIA or EIIAB component [EC:2.7.1.194] 
+<a href="/entry/K02822">K02822</a>               ulaB, sgaB; ascorbate PTS system EIIB component [EC:2.7.1.194] 
+<a href="/entry/K03077">K03077</a>               araD, ulaF, sgaE, sgbE; L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4] 
+<a href="/entry/K03078">K03078</a>               ulaD, sgaH, sgbH; 3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85] 
+<a href="/entry/K03079">K03079</a>               ulaE, sgaU, sgbU; L-ribulose-5-phosphate 3-epimerase [EC:5.1.3.22] 
+<a href="/entry/K03475">K03475</a>               ulaA, sgaT; ascorbate PTS system EIIC component 
+<a href="/entry/K03476">K03476</a>               ulaG; L-ascorbate 6-phosphate lactonase [EC:3.1.1.-] 
+<a href="/entry/K08092">K08092</a>               dlgD; 3-dehydro-L-gulonate 2-dehydrogenase [EC:1.1.1.130] 
+<a href="/entry/K08232">K08232</a>               E1.6.5.4; monodehydroascorbate reductase (NADH) [EC:1.6.5.4] 
+<a href="/entry/K08679">K08679</a>               GAE, cap1J; UDP-glucuronate 4-epimerase [EC:5.1.3.6] 
+<a href="/entry/K10046">K10046</a>               GME; GDP-D-mannose 3&#39;, 5&#39;-epimerase [EC:5.1.3.18 5.1.3.-] 
+<a href="/entry/K10047">K10047</a>               VTC4; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase [EC:3.1.3.25 3.1.3.93] 
+<a href="/entry/K12447">K12447</a>               USP; UDP-sugar pyrophosphorylase [EC:2.7.7.64] 
+<a href="/entry/K13873">K13873</a>               araA; L-arabinose 1-dehydrogenase [EC:1.1.1.376] 
+<a href="/entry/K13874">K13874</a>               araB; L-arabinonolactonase [EC:3.1.1.15] 
+<a href="/entry/K13875">K13875</a>               araC; L-arabonate dehydrase [EC:4.2.1.25] 
+<a href="/entry/K13876">K13876</a>               araD; 2-keto-3-deoxy-L-arabinonate dehydratase [EC:4.2.1.43] 
+<a href="/entry/K13877">K13877</a>               aldH; 2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26] 
+<a href="/entry/K14085">K14085</a>               ALDH7A1; aldehyde dehydrogenase family 7 member A1 [EC:1.2.1.31 1.2.1.8 1.2.1.3] 
+<a href="/entry/K14190">K14190</a>               VTC2_5; GDP-L-galactose phosphorylase [EC:2.7.7.69] 
+<a href="/entry/K14259">K14259</a>               kdaD, xacE, kdxD; 2-dehydro-3-deoxy-D-arabinonate dehydratase [EC:4.2.1.141] 
+<a href="/entry/K14756">K14756</a>               KL; klotho [EC:3.2.1.31] 
+<a href="/entry/K16190">K16190</a>               GLCAK; glucuronokinase [EC:2.7.1.43] 
+<a href="/entry/K17744">K17744</a>               GalDH; L-galactose dehydrogenase [EC:1.1.1.316] 
+<a href="/entry/K18649">K18649</a>               IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase 
+<a href="/entry/K18981">K18981</a>               udh; uronate dehydrogenase [EC:1.1.1.203] 
+<a href="/entry/K18982">K18982</a>               gli; D-galactarolactone isomerase [EC:5.4.1.4] 
+<a href="/entry/K18983">K18983</a>               gci; D-galactarolactone cycloisomerase [EC:5.5.1.27] 
+<a href="/entry/K19588">K19588</a>               dopDH; 2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26] 
+<a href="/entry/K19590">K19590</a>               araDH; D-arabinose 1-dehydrogenase (NADP+) [EC:1.1.1.427] 
+<a href="/entry/K19642">K19642</a>               GALUR; D-galacturonate reductase [EC:1.1.1.365] 
+<a href="/entry/K19660">K19660</a>               araDH; L-arabinose 1-dehydrogenase [NAD(P)+] [EC:1.1.1.376] 
+<a href="/entry/K20023">K20023</a>               talrD-galrD; L-talarate/galactarate dehydratase [EC:4.2.1.156 4.2.1.42] 
+<a href="/entry/K21888">K21888</a>               DHAR; glutathione dehydrogenase/transferase [EC:1.8.5.1 2.5.1.18] 
+<a href="/entry/K23003">K23003</a>               lgaA; L-galactose dehydrogenase [EC:1.1.1.-] 
+<a href="/entry/K23004">K23004</a>               lgaB; L-galactono-1,5-lactonase [EC:3.1.1.-] 
+<a href="/entry/K23005">K23005</a>               lgaC; L-galactonate 5-dehydrogenase [EC:1.1.1.414] 
+<a href="/entry/K23007">K23007</a>               lgoD; L-galactonate 5-dehydrogenase [EC:1.1.1.414] 
+<a href="/entry/K24443">K24443</a>               xacC; D-xylono/L-arabinono-1,4-lactonase [EC:3.1.1.68 3.1.1.15] 
+<a href="/entry/K25260">K25260</a>               lxyD; L-lyxonate dehydratase [EC:4.2.1.176] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

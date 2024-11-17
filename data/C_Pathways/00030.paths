@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00030    </title>
+    <link href="/css/gn2.css?1731859732" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859732"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00030<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 89 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00032">K00032</a>               E1.1.1.43; phosphogluconate 2-dehydrogenase [EC:1.1.1.43] 
+<a href="/entry/K00033">K00033</a>               PGD, gnd, gntZ; 6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343] 
+<a href="/entry/K00034">K00034</a>               gdh; glucose 1-dehydrogenase [EC:1.1.1.47] 
+<a href="/entry/K00036">K00036</a>               G6PD, zwf; glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363] 
+<a href="/entry/K00090">K00090</a>               ghrB; glyoxylate/hydroxypyruvate/2-ketogluconate reductase [EC:1.1.1.79 1.1.1.81 1.1.1.215] 
+<a href="/entry/K00115">K00115</a>               GLD; glucose 1-dehydrogenase (FAD, quinone) [EC:1.1.5.9] 
+<a href="/entry/K00117">K00117</a>               gcd; quinoprotein glucose dehydrogenase [EC:1.1.5.2] 
+<a href="/entry/K00131">K00131</a>               gapN; glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9] 
+<a href="/entry/K00615">K00615</a>               E2.2.1.1, tktA, tktB; transketolase [EC:2.2.1.1] 
+<a href="/entry/K00616">K00616</a>               TALDO1, talB, talA; transaldolase [EC:2.2.1.2] 
+<a href="/entry/K00850">K00850</a>               pfkA, PFK; 6-phosphofructokinase 1 [EC:2.7.1.11] 
+<a href="/entry/K00851">K00851</a>               idnK, gntK; gluconokinase [EC:2.7.1.12] 
+<a href="/entry/K00852">K00852</a>               rbsK, RBKS; ribokinase [EC:2.7.1.15] 
+<a href="/entry/K00874">K00874</a>               kdgK; 2-dehydro-3-deoxygluconokinase [EC:2.7.1.45] 
+<a href="/entry/K00895">K00895</a>               pfp, PFP; diphosphate-dependent phosphofructokinase [EC:2.7.1.90] 
+<a href="/entry/K00918">K00918</a>               pfkC; ADP-dependent phosphofructokinase/glucokinase [EC:2.7.1.146 2.7.1.147] 
+<a href="/entry/K00948">K00948</a>               PRPS, prsA; ribose-phosphate pyrophosphokinase [EC:2.7.6.1] 
+<a href="/entry/K01053">K01053</a>               gnl, RGN; gluconolactonase [EC:3.1.1.17] 
+<a href="/entry/K01057">K01057</a>               PGLS, pgl, devB; 6-phosphogluconolactonase [EC:3.1.1.31] 
+<a href="/entry/K01086">K01086</a>               fbp-SEBP; fructose-1,6-bisphosphatase I / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] 
+<a href="/entry/K01619">K01619</a>               deoC, DERA; deoxyribose-phosphate aldolase [EC:4.1.2.4] 
+<a href="/entry/K01621">K01621</a>               xfp, xpk; xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22] 
+<a href="/entry/K01622">K01622</a>               K01622; fructose 1,6-bisphosphate aldolase/phosphatase [EC:4.1.2.13 3.1.3.11] 
+<a href="/entry/K01623">K01623</a>               ALDO; fructose-bisphosphate aldolase, class I [EC:4.1.2.13] 
+<a href="/entry/K01624">K01624</a>               FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13] 
+<a href="/entry/K01625">K01625</a>               eda; 2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase [EC:4.1.2.1 
+<a href="/entry/K01690">K01690</a>               edd; phosphogluconate dehydratase [EC:4.2.1.12] 
+<a href="/entry/K01783">K01783</a>               rpe, RPE; ribulose-phosphate 3-epimerase [EC:5.1.3.1] 
+<a href="/entry/K01807">K01807</a>               rpiA; ribose 5-phosphate isomerase A [EC:5.3.1.6] 
+<a href="/entry/K01808">K01808</a>               rpiB; ribose 5-phosphate isomerase B [EC:5.3.1.6] 
+<a href="/entry/K01810">K01810</a>               GPI, pgi; glucose-6-phosphate isomerase [EC:5.3.1.9] 
+<a href="/entry/K01835">K01835</a>               pgm; phosphoglucomutase [EC:5.4.2.2] 
+<a href="/entry/K01839">K01839</a>               deoB; phosphopentomutase [EC:5.4.2.7] 
+<a href="/entry/K02446">K02446</a>               glpX; fructose-1,6-bisphosphatase II [EC:3.1.3.11] 
+<a href="/entry/K03738">K03738</a>               aor; aldehyde:ferredoxin oxidoreductase [EC:1.2.7.5] 
+<a href="/entry/K03841">K03841</a>               FBP, fbp; fructose-1,6-bisphosphatase I [EC:3.1.3.11] 
+<a href="/entry/K04041">K04041</a>               fbp3; fructose-1,6-bisphosphatase III [EC:3.1.3.11] 
+<a href="/entry/K05308">K05308</a>               gnaD; gluconate/galactonate dehydratase [EC:4.2.1.140] 
+<a href="/entry/K05774">K05774</a>               phnN; ribose 1,5-bisphosphokinase [EC:2.7.4.23] 
+<a href="/entry/K06151">K06151</a>               E1.1.99.3A; gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3] 
+<a href="/entry/K06152">K06152</a>               E1.1.99.3G; gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3] 
+<a href="/entry/K06859">K06859</a>               pgi1; glucose-6-phosphate isomerase, archaeal [EC:5.3.1.9] 
+<a href="/entry/K07404">K07404</a>               pgl; 6-phosphogluconolactonase [EC:3.1.1.31] 
+<a href="/entry/K08093">K08093</a>               hxlA; 3-hexulose-6-phosphate synthase [EC:4.1.2.43] 
+<a href="/entry/K08094">K08094</a>               hxlB; 6-phospho-3-hexuloisomerase [EC:5.3.1.27] 
+<a href="/entry/K11214">K11214</a>               SHPK; sedoheptulokinase [EC:2.7.1.14] 
+<a href="/entry/K11395">K11395</a>               kdpgA; 2-dehydro-3-deoxy-phosphogluconate/2-dehydro-3-deoxy-6-phosphogalactonate aldolase [EC:4.1.2. 
+<a href="/entry/K11441">K11441</a>               kguK; dehydrogluconokinase [EC:2.7.1.13] 
+<a href="/entry/K11529">K11529</a>               gck, gckA, GLYCTK; glycerate 2-kinase [EC:2.7.1.165] 
+<a href="/entry/K11532">K11532</a>               glpX-SEBP; fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] 
+<a href="/entry/K11645">K11645</a>               fbaB; fructose-bisphosphate aldolase, class I [EC:4.1.2.13] 
+<a href="/entry/K13810">K13810</a>               tal-pgi; transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9] 
+<a href="/entry/K13812">K13812</a>               fae-hps; bifunctional enzyme Fae/Hps [EC:4.2.1.147 4.1.2.43] 
+<a href="/entry/K13831">K13831</a>               hps-phi; 3-hexulose-6-phosphate synthase / 6-phospho-3-hexuloisomerase [EC:4.1.2.43 5.3.1.27] 
+<a href="/entry/K13937">K13937</a>               H6PD; hexose-6-phosphate dehydrogenase [EC:1.1.1.47 3.1.1.31] 
+<a href="/entry/K15778">K15778</a>               pmm-pgm; phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2] 
+<a href="/entry/K15779">K15779</a>               PGM2; phosphoglucomutase / phosphopentomutase [EC:5.4.2.2 5.4.2.7] 
+<a href="/entry/K15916">K15916</a>               pgi-pmi; glucose/mannose-6-phosphate isomerase [EC:5.3.1.9 5.3.1.8] 
+<a href="/entry/K16305">K16305</a>               K16305; fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase [EC:4.1.2.13 2. 
+<a href="/entry/K16306">K16306</a>               K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4 
+<a href="/entry/K16370">K16370</a>               pfkB; 6-phosphofructokinase 2 [EC:2.7.1.11] 
+<a href="/entry/K17463">K17463</a>               dgaF; 2-dehydro-3-deoxy-phosphogluconate aldolase [EC:4.1.2.14] 
+<a href="/entry/K17464">K17464</a>               dgaA; D-glucosaminate PTS system EIIA component [EC:2.7.1.203] 
+<a href="/entry/K17465">K17465</a>               dgaB; D-glucosaminate PTS system EIIB component [EC:2.7.1.203] 
+<a href="/entry/K17466">K17466</a>               dgaC; D-glucosaminate PTS system EIIC component 
+<a href="/entry/K17467">K17467</a>               dgaD; D-glucosaminate PTS system EIID component 
+<a href="/entry/K17468">K17468</a>               dgaE; D-glucosaminate-6-phosphate ammonia-lyase [EC:4.3.1.29] 
+<a href="/entry/K18020">K18020</a>               cutA; glyceraldehyde dehydrogenase large subunit [EC:1.2.99.8] 
+<a href="/entry/K18021">K18021</a>               cutB; glyceraldehyde dehydrogenase medium subunit [EC:1.2.99.8] 
+<a href="/entry/K18022">K18022</a>               cutC; glyceraldehyde dehydrogenase small subunit [EC:1.2.99.8] 
+<a href="/entry/K18124">K18124</a>               gdh2, gdhA; glucose/galactose 1-dehydrogenase (NADP+) [EC:1.1.1.360] 
+<a href="/entry/K18125">K18125</a>               ssgdh; aldose 1-dehydrogenase [NAD(P)+] [EC:1.1.1.359] 
+<a href="/entry/K18126">K18126</a>               sskdgK; 2-dehydro-3-deoxygluconokinase / 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.178] 
+<a href="/entry/K18127">K18127</a>               kdgA; 2-dehydro-3-deoxy-D-gluconate aldolase [EC:4.1.2.51] 
+<a href="/entry/K18128">K18128</a>               gadh; D-glyceraldehyde dehydrogenase (NADP+) [EC:1.2.1.89] 
+<a href="/entry/K18237">K18237</a>               K18237; ribose 1,5-bisphosphate isomerase [EC:5.3.1.29] 
+<a href="/entry/K18978">K18978</a>               gapN; glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] [EC:1.2.1.90] 
+<a href="/entry/K19243">K19243</a>               azf; NAD+ dependent glucose-6-phosphate dehydrogenase [EC:1.1.1.388] 
+<a href="/entry/K19813">K19813</a>               gdh; glucose dehydrogenase [EC:1.1.5.9] 
+<a href="/entry/K21056">K21056</a>               E2.7.1.212; alpha-D-ribose-1-phosphate 5-kinase (ADP) [EC:2.7.1.212] 
+<a href="/entry/K21071">K21071</a>               pfk, pfp; ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 
+<a href="/entry/K21840">K21840</a>               HOX; hexose oxidase [EC:1.1.3.5] 
+<a href="/entry/K22199">K22199</a>               ppm; phosphopentomutase [EC:5.4.2.7] 
+<a href="/entry/K22229">K22229</a>               K22229; 2-ketogluconate reductase [EC:1.1.1.215] 
+<a href="/entry/K22345">K22345</a>               E4.3.1.9; glucosaminate ammonia-lyase [EC:4.3.1.9] 
+<a href="/entry/K22969">K22969</a>               gdh; glucose 1-dehydrogenase [EC:1.1.1.47] 
+<a href="/entry/K24182">K24182</a>               PFK9; 6-phosphofructokinase [EC:2.7.1.11] 
+<a href="/entry/K25031">K25031</a>               gntK; gluconokinase [EC:2.7.1.12] 
+<a href="/entry/K26208">K26208</a>               E2.7.1.239; alpha-D-ribose-1-phosphate 5-kinase (ATP) [EC:2.7.1.239] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00640    </title>
+    <link href="/css/gn2.css?1731859720" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859720"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00640<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 102 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00005">K00005</a>               gldA; glycerol dehydrogenase [EC:1.1.1.6] 
+<a href="/entry/K00016">K00016</a>               LDH, ldh; L-lactate dehydrogenase [EC:1.1.1.27] 
+<a href="/entry/K00048">K00048</a>               fucO; lactaldehyde reductase [EC:1.1.1.77] 
+<a href="/entry/K00086">K00086</a>               dhaT; 1,3-propanediol dehydrogenase [EC:1.1.1.202] 
+<a href="/entry/K00140">K00140</a>               mmsA, iolA, ALDH6A1; malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde 
+<a href="/entry/K00166">K00166</a>               BCKDHA, bkdA1; 2-oxoisovalerate dehydrogenase E1 component subunit alpha [EC:1.2.4.4] 
+<a href="/entry/K00167">K00167</a>               BCKDHB, bkdA2; 2-oxoisovalerate dehydrogenase E1 component subunit beta [EC:1.2.4.4] 
+<a href="/entry/K00169">K00169</a>               porA; pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] 
+<a href="/entry/K00170">K00170</a>               porB; pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1] 
+<a href="/entry/K00171">K00171</a>               porD; pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1] 
+<a href="/entry/K00172">K00172</a>               porC, porG; pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1] 
+<a href="/entry/K00189">K00189</a>               vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1] 
+<a href="/entry/K00232">K00232</a>               E1.3.3.6, ACOX1, ACOX3; acyl-CoA oxidase [EC:1.3.3.6] 
+<a href="/entry/K00248">K00248</a>               ACADS, bcd; butyryl-CoA dehydrogenase [EC:1.3.8.1] 
+<a href="/entry/K00382">K00382</a>               DLD, lpd, pdhD; dihydrolipoyl dehydrogenase [EC:1.8.1.4] 
+<a href="/entry/K00625">K00625</a>               pta; phosphate acetyltransferase [EC:2.3.1.8] 
+<a href="/entry/K00656">K00656</a>               E2.3.1.54, pflD; formate C-acetyltransferase [EC:2.3.1.54] 
+<a href="/entry/K00822">K00822</a>               E2.6.1.18; beta-alanine--pyruvate transaminase [EC:2.6.1.18] 
+<a href="/entry/K00823">K00823</a>               puuE; 4-aminobutyrate aminotransferase [EC:2.6.1.19] 
+<a href="/entry/K00925">K00925</a>               ackA; acetate kinase [EC:2.7.2.1] 
+<a href="/entry/K00932">K00932</a>               tdcD; propionate kinase [EC:2.7.2.15] 
+<a href="/entry/K01026">K01026</a>               pct; propionate CoA-transferase [EC:2.8.3.1] 
+<a href="/entry/K01578">K01578</a>               MLYCD; malonyl-CoA decarboxylase [EC:4.1.1.9] 
+<a href="/entry/K01637">K01637</a>               ICL, aceA; isocitrate/methylisocitrate lyase [EC:4.1.3.1 4.1.3.30] 
+<a href="/entry/K01659">K01659</a>               prpC; 2-methylcitrate synthase [EC:2.3.3.5] 
+<a href="/entry/K01682">K01682</a>               acnB; aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] 
+<a href="/entry/K01692">K01692</a>               paaF, echA; enoyl-CoA hydratase [EC:4.2.1.17] 
+<a href="/entry/K01699">K01699</a>               pduC; propanediol dehydratase large subunit [EC:4.2.1.28] 
+<a href="/entry/K01720">K01720</a>               prpD; 2-methylcitrate dehydratase [EC:4.2.1.79] 
+<a href="/entry/K01734">K01734</a>               mgsA; methylglyoxal synthase [EC:4.2.3.3] 
+<a href="/entry/K01782">K01782</a>               fadJ; 3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1 
+<a href="/entry/K01825">K01825</a>               fadB; 3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl 
+<a href="/entry/K01847">K01847</a>               MUT; methylmalonyl-CoA mutase [EC:5.4.99.2] 
+<a href="/entry/K01848">K01848</a>               E5.4.99.2A, mcmA1; methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2] 
+<a href="/entry/K01849">K01849</a>               E5.4.99.2B, mcmA2; methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2] 
+<a href="/entry/K01895">K01895</a>               ACSS1_2, acs; acetyl-CoA synthetase [EC:6.2.1.1] 
+<a href="/entry/K01899">K01899</a>               LSC1; succinyl-CoA synthetase alpha subunit [EC:6.2.1.4 6.2.1.5] 
+<a href="/entry/K01900">K01900</a>               LSC2; succinyl-CoA synthetase beta subunit [EC:6.2.1.4 6.2.1.5] 
+<a href="/entry/K01902">K01902</a>               sucD; succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] 
+<a href="/entry/K01903">K01903</a>               sucC; succinyl-CoA synthetase beta subunit [EC:6.2.1.5] 
+<a href="/entry/K01905">K01905</a>               acdA; acetate---CoA ligase (ADP-forming) subunit alpha [EC:6.2.1.13] 
+<a href="/entry/K01908">K01908</a>               ACSS3, prpE; propionyl-CoA synthetase [EC:6.2.1.17] 
+<a href="/entry/K01946">K01946</a>               ACACB; acetyl-CoA carboxylase / biotin carboxylase 2 [EC:6.4.1.2 6.3.4.14 2.1.3.15] 
+<a href="/entry/K01961">K01961</a>               accC; acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] 
+<a href="/entry/K01962">K01962</a>               accA; acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] 
+<a href="/entry/K01963">K01963</a>               accD; acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] 
+<a href="/entry/K01964">K01964</a>               K01964; acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3] 
+<a href="/entry/K01965">K01965</a>               PCCA, pccA; propionyl-CoA carboxylase alpha subunit [EC:6.4.1.3] 
+<a href="/entry/K01966">K01966</a>               PCCB, pccB; propionyl-CoA carboxylase beta subunit [EC:6.4.1.3 2.1.3.15] 
+<a href="/entry/K02160">K02160</a>               accB, bccP; acetyl-CoA carboxylase biotin carboxyl carrier protein 
+<a href="/entry/K03416">K03416</a>               E2.1.3.1-5S; methylmalonyl-CoA carboxyltransferase 5S subunit [EC:2.1.3.1] 
+<a href="/entry/K03417">K03417</a>               prpB; methylisocitrate lyase [EC:4.1.3.30] 
+<a href="/entry/K05605">K05605</a>               HIBCH; 3-hydroxyisobutyryl-CoA hydrolase [EC:3.1.2.4] 
+<a href="/entry/K05606">K05606</a>               MCEE, epi; methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] 
+<a href="/entry/K07250">K07250</a>               gabT; 4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase / 5-aminovalera 
+<a href="/entry/K07511">K07511</a>               ECHS1; enoyl-CoA hydratase [EC:4.2.1.17] 
+<a href="/entry/K07514">K07514</a>               EHHADH; enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase / 3,2-trans-enoyl-CoA isomerase [EC:4. 
+<a href="/entry/K07515">K07515</a>               HADHA; enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211] 
+<a href="/entry/K08325">K08325</a>               yqhD; NADP-dependent alcohol dehydrogenase [EC:1.1.-.-] 
+<a href="/entry/K09699">K09699</a>               DBT, bkdB; 2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168] 
+<a href="/entry/K09788">K09788</a>               prpF; 2-methylaconitate isomerase [EC:5.3.3.-] 
+<a href="/entry/K11262">K11262</a>               ACACA; acetyl-CoA carboxylase / biotin carboxylase 1 [EC:6.4.1.2 6.3.4.14 2.1.3.15] 
+<a href="/entry/K11263">K11263</a>               bccA, pccA, accA3; acetyl-CoA/propionyl-CoA/long-chain acyl-CoA carboxylase, biotin carboxylase, bio 
+<a href="/entry/K11264">K11264</a>               scpB, mmcD; methylmalonyl-CoA decarboxylase [EC:4.1.1.-] 
+<a href="/entry/K11381">K11381</a>               bkdA; 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4] 
+<a href="/entry/K13524">K13524</a>               ABAT; 4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase [EC:2.6.1.19 2. 
+<a href="/entry/K13788">K13788</a>               pta; phosphate acetyltransferase [EC:2.3.1.8] 
+<a href="/entry/K13919">K13919</a>               pduD; propanediol dehydratase medium subunit [EC:4.2.1.28] 
+<a href="/entry/K13920">K13920</a>               pduE; propanediol dehydratase small subunit [EC:4.2.1.28] 
+<a href="/entry/K13921">K13921</a>               pduQ; 1-propanol dehydrogenase 
+<a href="/entry/K13922">K13922</a>               pduP; propionaldehyde dehydrogenase [EC:1.2.1.87] 
+<a href="/entry/K13923">K13923</a>               pduL; phosphate propanoyltransferase [EC:2.3.1.222] 
+<a href="/entry/K14468">K14468</a>               mcr; malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+) [EC:1.2.1.75 1.1.1.298] 
+<a href="/entry/K14729">K14729</a>               FOX2; multifunctional beta-oxidation protein [EC:4.2.1.- 1.1.1.-] 
+<a href="/entry/K15024">K15024</a>               K15024; putative phosphotransacetylase [EC:2.3.1.8] 
+<a href="/entry/K15036">K15036</a>               K15036; acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3 2.1.3.15] 
+<a href="/entry/K15037">K15037</a>               K15037; biotin carboxyl carrier protein 
+<a href="/entry/K17489">K17489</a>               E2.1.3.1-12S; methylmalonyl-CoA carboxyltransferase 12S subunit [EC:2.1.3.1] 
+<a href="/entry/K17490">K17490</a>               E2.1.3.1-1.3S; methylmalonyl-CoA carboxyltransferase 1.3S subunit [EC:2.1.3.1] 
+<a href="/entry/K17741">K17741</a>               GRE2; NADPH-dependent methylglyoxal reductase [EC:1.1.1.283] 
+<a href="/entry/K18426">K18426</a>               ECHDC1; ethylmalonyl-CoA/methylmalonyl-CoA decarboxylase [EC:4.1.1.94 4.1.1.-] 
+<a href="/entry/K18471">K18471</a>               ydjG; methylglyoxal reductase [EC:1.1.1.-] 
+<a href="/entry/K18472">K18472</a>               accD6; acetyl-CoA/propionyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.2 6.4.1.3 2.1.3.1 
+<a href="/entry/K19312">K19312</a>               pccB; acetyl-CoA/propionyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.2 6.4.1.3 2.1.3.15 
+<a href="/entry/K19697">K19697</a>               pduW; propionate kinase [EC:2.7.2.15] 
+<a href="/entry/K19745">K19745</a>               acuI; acrylyl-CoA reductase (NADPH) [EC:1.3.1.-] 
+<a href="/entry/K20143">K20143</a>               acrC; acrylyl-CoA reductase (NADH) [EC:1.3.1.95] 
+<a href="/entry/K20455">K20455</a>               acnD; 2-methylcitrate dehydratase (2-methyl-trans-aconitate forming) [EC:4.2.1.117] 
+<a href="/entry/K20626">K20626</a>               lcdA; lactoyl-CoA dehydratase subunit alpha [EC:4.2.1.54] 
+<a href="/entry/K20627">K20627</a>               lcdB; lactoyl-CoA dehydratase subunit beta [EC:4.2.1.54] 
+<a href="/entry/K22214">K22214</a>               scpC; propionyl-CoA:succinyl-CoA transferase [EC:2.8.3.27] 
+<a href="/entry/K22224">K22224</a>               acdB; acetate---CoA ligase (ADP-forming) subunit beta [EC:6.2.1.13] 
+<a href="/entry/K22568">K22568</a>               pccX; acetyl-CoA/propionyl-CoA carboxylase, PccX subunit [EC:6.4.1.2 6.4.1.3] 
+<a href="/entry/K23146">K23146</a>               HPD1; 3-hydroxyisobutyrate/3-hydroxypropionate dehydrogenase [EC:1.1.1.31 1.1.1.59] 
+<a href="/entry/K23257">K23257</a>               yvgN; methylglyoxal/glyoxal reductase [EC:1.1.1.283 1.1.1.-] 
+<a href="/entry/K24012">K24012</a>               acdAB; acetate---CoA ligase (ADP-forming) [EC:6.2.1.13] 
+<a href="/entry/K25571">K25571</a>               pydD; beta-alanine---2-oxoglutarate transaminase [EC:2.6.1.120] 
+<a href="/entry/K26355">K26355</a>               ard; acrylate reductase [EC:1.3.1.125] 
+<a href="/entry/K27094">K27094</a>               accD5; propionyl-CoA/long-chain acyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.3 6.4.1. 
+<a href="/entry/K27095">K27095</a>               accE5, accE; acyl-CoA carboxylase epsilon subunit 
+<a href="/entry/K27797">K27797</a>               MCSA; 2-methylcitrate synthase [EC:2.3.3.5] 
+<a href="/entry/K27802">K27802</a>               acnA; aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+KEGG PATHWAY map00020    </title>
+    <link href="/css/gn2.css?1731859733" rel="stylesheet" type="text/css">
+    <style>
+      pre{font-family:monospace}
+      #gotop {display:none;position:fixed;bottom:50px;left:50rem;cursor:pointer;width:30px;}
+    </style>
+    <script src="/js/linkdb_scr.js?1731859733"></script>
+    <script>
+      onload = function(){
+        var obj = document.getElementById("gotop") ? document.getElementById("gotop") : {};
+        if(!obj){return;}
+        obj.addEventListener("click",function(e){e.preventDefault();scrt(this);},false);
+      };
+      onscroll = function(){onscr();};
+    </script>
+  </head>
+  <body>
+  <a id="top"></a>
+<table width="680">
+<tr>
+  <td width="180" align="center">
+    <a href="https://www.genome.jp/"><img src="/Fig/gntop2.gif" alt="GenomeNet icon" border="0"></a>
+  </td>
+  <td>
+    <h2 class="title2">LinkDB Search</h2>
+  </td>
+</tr>
+</table>
+<br>
+Mode: Single Entry to Database<br>
+From: KEGG PATHWAY map00020<br>
+To: KEGG ORTHOLOGY<br>
+Hits: 70 from 1 database<br>
+
+
+<pre>ID                   Definition
+----------------------------------------------------------------------------------------------------
+<a href="/entry/K00024">K00024</a>               mdh; malate dehydrogenase [EC:1.1.1.37] 
+<a href="/entry/K00025">K00025</a>               MDH1; malate dehydrogenase [EC:1.1.1.37] 
+<a href="/entry/K00026">K00026</a>               MDH2; malate dehydrogenase [EC:1.1.1.37] 
+<a href="/entry/K00030">K00030</a>               IDH3; isocitrate dehydrogenase (NAD+) [EC:1.1.1.41] 
+<a href="/entry/K00031">K00031</a>               IDH1, IDH2, icd; isocitrate dehydrogenase [EC:1.1.1.42] 
+<a href="/entry/K00116">K00116</a>               mqo; malate dehydrogenase (quinone) [EC:1.1.5.4] 
+<a href="/entry/K00161">K00161</a>               PDHA, pdhA; pyruvate dehydrogenase E1 component subunit alpha [EC:1.2.4.1] 
+<a href="/entry/K00162">K00162</a>               PDHB, pdhB; pyruvate dehydrogenase E1 component subunit beta [EC:1.2.4.1] 
+<a href="/entry/K00163">K00163</a>               aceE; pyruvate dehydrogenase E1 component [EC:1.2.4.1] 
+<a href="/entry/K00164">K00164</a>               OGDH, sucA; 2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2] 
+<a href="/entry/K00169">K00169</a>               porA; pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] 
+<a href="/entry/K00170">K00170</a>               porB; pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1] 
+<a href="/entry/K00171">K00171</a>               porD; pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1] 
+<a href="/entry/K00172">K00172</a>               porC, porG; pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1] 
+<a href="/entry/K00174">K00174</a>               korA, oorA, oforA; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2. 
+<a href="/entry/K00175">K00175</a>               korB, oorB, oforB; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7 
+<a href="/entry/K00176">K00176</a>               korD, oorD; 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3] 
+<a href="/entry/K00177">K00177</a>               korC, oorC; 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3] 
+<a href="/entry/K00189">K00189</a>               vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1] 
+<a href="/entry/K00233">K00233</a>               frdA, fdrA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1 7.1.1.12] 
+<a href="/entry/K00234">K00234</a>               SDHA, SDH1; succinate dehydrogenase (ubiquinone) flavoprotein subunit [EC:1.3.5.1] 
+<a href="/entry/K00235">K00235</a>               SDHB, SDH2; succinate dehydrogenase (ubiquinone) iron-sulfur subunit [EC:1.3.5.1] 
+<a href="/entry/K00236">K00236</a>               SDHC, SDH3; succinate dehydrogenase (ubiquinone) cytochrome b560 subunit 
+<a href="/entry/K00237">K00237</a>               SDHD, SDH4; succinate dehydrogenase (ubiquinone) membrane anchor subunit 
+<a href="/entry/K00239">K00239</a>               sdhA, frdA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] 
+<a href="/entry/K00240">K00240</a>               sdhB, frdB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] 
+<a href="/entry/K00241">K00241</a>               sdhC, frdC; succinate dehydrogenase cytochrome b subunit 
+<a href="/entry/K00242">K00242</a>               sdhD, frdD; succinate dehydrogenase membrane anchor subunit 
+<a href="/entry/K00244">K00244</a>               frdA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] 
+<a href="/entry/K00245">K00245</a>               frdB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] 
+<a href="/entry/K00246">K00246</a>               frdC; succinate dehydrogenase subunit C 
+<a href="/entry/K00247">K00247</a>               frdD; succinate dehydrogenase subunit D 
+<a href="/entry/K00382">K00382</a>               DLD, lpd, pdhD; dihydrolipoyl dehydrogenase [EC:1.8.1.4] 
+<a href="/entry/K00627">K00627</a>               DLAT, aceF, pdhC; pyruvate dehydrogenase E2 component (dihydrolipoyllysine-residue acetyltransferase 
+<a href="/entry/K00658">K00658</a>               DLST, sucB; 2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3 
+<a href="/entry/K01596">K01596</a>               E4.1.1.32, pckA, PCK; phosphoenolpyruvate carboxykinase (GTP) [EC:4.1.1.32] 
+<a href="/entry/K01610">K01610</a>               pckA; phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] 
+<a href="/entry/K01616">K01616</a>               kgd; multifunctional 2-oxoglutarate metabolism enzyme [EC:2.2.1.5 4.1.1.71 1.2.4.2 2.3.1.61] 
+<a href="/entry/K01647">K01647</a>               CS, gltA; citrate synthase [EC:2.3.3.1] 
+<a href="/entry/K01648">K01648</a>               ACLY; ATP citrate (pro-S)-lyase [EC:2.3.3.8] 
+<a href="/entry/K01659">K01659</a>               prpC; 2-methylcitrate synthase [EC:2.3.3.5] 
+<a href="/entry/K01675">K01675</a>               fumD; fumarate hydratase D [EC:4.2.1.2] 
+<a href="/entry/K01676">K01676</a>               E4.2.1.2A, fumA, fumB; fumarate hydratase, class I [EC:4.2.1.2] 
+<a href="/entry/K01677">K01677</a>               E4.2.1.2AA, fumA; fumarate hydratase subunit alpha [EC:4.2.1.2] 
+<a href="/entry/K01678">K01678</a>               E4.2.1.2AB, fumB; fumarate hydratase subunit beta [EC:4.2.1.2] 
+<a href="/entry/K01679">K01679</a>               E4.2.1.2B, fumC, FH; fumarate hydratase, class II [EC:4.2.1.2] 
+<a href="/entry/K01681">K01681</a>               ACO; aconitate hydratase [EC:4.2.1.3] 
+<a href="/entry/K01682">K01682</a>               acnB; aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] 
+<a href="/entry/K01774">K01774</a>               fumE; fumarate hydratase E [EC:4.2.1.2] 
+<a href="/entry/K01899">K01899</a>               LSC1; succinyl-CoA synthetase alpha subunit [EC:6.2.1.4 6.2.1.5] 
+<a href="/entry/K01900">K01900</a>               LSC2; succinyl-CoA synthetase beta subunit [EC:6.2.1.4 6.2.1.5] 
+<a href="/entry/K01902">K01902</a>               sucD; succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] 
+<a href="/entry/K01903">K01903</a>               sucC; succinyl-CoA synthetase beta subunit [EC:6.2.1.5] 
+<a href="/entry/K01958">K01958</a>               PC, pyc; pyruvate carboxylase [EC:6.4.1.1] 
+<a href="/entry/K01959">K01959</a>               pycA; pyruvate carboxylase subunit A [EC:6.4.1.1] 
+<a href="/entry/K01960">K01960</a>               pycB; pyruvate carboxylase subunit B [EC:6.4.1.1] 
+<a href="/entry/K03737">K03737</a>               por, nifJ; pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.7.-] 
+<a href="/entry/K05942">K05942</a>               E2.3.3.3; citrate (Re)-synthase [EC:2.3.3.3] 
+<a href="/entry/K15230">K15230</a>               aclA; ATP-citrate lyase alpha-subunit [EC:2.3.3.8] 
+<a href="/entry/K15231">K15231</a>               aclB; ATP-citrate lyase beta-subunit [EC:2.3.3.8] 
+<a href="/entry/K17753">K17753</a>               HICDH; isocitrate--homoisocitrate dehydrogenase [EC:1.1.1.286] 
+<a href="/entry/K18118">K18118</a>               aarC, cat1; succinyl-CoA:acetate CoA-transferase [EC:2.8.3.18] 
+<a href="/entry/K18859">K18859</a>               sdhD, frdD; succinate dehydrogenase subunit D 
+<a href="/entry/K18860">K18860</a>               sdhD, frdD; succinate dehydrogenase subunit D 
+<a href="/entry/K25801">K25801</a>               SDH4; succinate dehydrogenase (ubiquinone) subunit 4 
+<a href="/entry/K25995">K25995</a>               frdB, fdrB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1 7.1.1.12] 
+<a href="/entry/K25996">K25996</a>               frdC, fdrC; succinate dehydrogenase subunit C 
+<a href="/entry/K26318">K26318</a>               fccA, fcc3; fumarate reductase (cytochrome) [EC:1.3.2.4] 
+<a href="/entry/K27797">K27797</a>               MCSA; 2-methylcitrate synthase [EC:2.3.3.5] 
+<a href="/entry/K27802">K27802</a>               acnA; aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] 
+</pre><img src="/Fig/pagetop2.png" id="gotop"><hr><a href="/dbget/">DBGET</a> integrated database retrieval system, <a href="https://www.genome.jp/">GenomeNet</a>
+</body>
+</html>
