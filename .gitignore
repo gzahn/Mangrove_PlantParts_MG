@@ -1,7 +1,9 @@
 # R stuff
 .Rhistory
+.Rproj.user
 
 # big files
 data/annotations
 data/fna
-.Rproj.user
+data/raw
+
