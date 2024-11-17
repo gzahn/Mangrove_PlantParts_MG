@@ -1,0 +1,7 @@
+# R stuff
+.Rhistory
+
+# big files
+data/annotations
+data/fna
+.Rproj.user

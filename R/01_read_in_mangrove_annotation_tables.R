@@ -30,7 +30,7 @@ read_annot <- function(x){
 }
 
 # file paths
-path <- "~/Desktop/Mangrove_Annotations"
+path <- "./data/annotations"
 # scaffold stats
 scafstats_fp <- list.files(path,full.names = TRUE, pattern = "scafstats.txt")
 # reference stats (overall for that file, might be handy)
@@ -64,7 +64,7 @@ uniprot_meta <-
   dat %>% 
   dplyr::select(uniprot_id,ko_id,ko_description,pfam_id,pfam_description,go_term) %>% 
   unique.data.frame()
-saveRDS(uniprot_meta,"./data/gene_meta.RDS")
+
 
 # build sample metadata
 sample_meta <- 
@@ -83,6 +83,8 @@ data.frame(
                                 plant_part == "Sed" ~ "Sediment"),
          replicate = sample_id %>% 
            str_split("_") %>% map_chr(3))
+# enforce factor order with sediment as intercept
+sample_meta$plant_part <- factor(sample_meta$plant_part,levels = c("Sediment","Pneumatophore","Leaf"))
 
 
 # build count table (full)
@@ -110,16 +112,37 @@ row.names(mat) <- count_tab$uniprot_id
 # Convert NA to 0
 mat[is.na(mat)] <- 0
 
-saveRDS(mat,"./count_table.RDS")
-saveRDS(sample_meta,"./sample_meta.RDS")
-
-# transform read counts with DeSeq2
+# make sure gene metadata matches rows of count table (mat)
+uniprot_meta_distinct <- distinct(uniprot_meta,uniprot_id,.keep_all = TRUE)
+rownames(uniprot_meta_distinct) <- uniprot_meta_distinct$uniprot_id
+uniprot_meta_distinct <- uniprot_meta_distinct[rownames(mat),]
 
 # check order of input data
-identical(
-  colnames(mat),
-  sample_meta$sample_id
-)
+if(
+  identical(
+    colnames(mat),
+    sample_meta$sample_id
+  ) 
+  &
+  identical(
+    rownames(mat),
+    uniprot_meta_distinct$uniprot_id
+  )
+  
+){
+  # save count table, sample metadata, and gene metadata objects
+  saveRDS(mat,"./data/count_table.RDS")
+  saveRDS(sample_meta,"./data/sample_meta.RDS")
+  saveRDS(uniprot_meta_distinct,"./data/gene_meta.RDS")
+} else {
+  cat("check that sample and gene metadata match the gene count matrix.")
+}
+
+
+
+
+
+
 # # build DESeqDataSet
 # dds <- DESeqDataSetFromMatrix(countData = mat,
 #                               colData = sample_meta,
