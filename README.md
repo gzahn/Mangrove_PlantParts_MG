@@ -18,7 +18,7 @@ ___
 ## Workflow
 
 1. QC with fastqc
-2. Assmebly with metaSPADEs
+2. Assembly with metaSPADEs
 3. Gene prediction with metaeuk (database)
 4. KO assignment with kofamscan
 5. Gene Ontology and PFam terms attached with custom scripts
